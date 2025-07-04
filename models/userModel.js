@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: {
-        values: ["customer", "admin" , "manger"],
+        values: ["customer", "admin", "manger"],
         message: "Role is either customer or admin",
       },
       default: "customer",
@@ -67,7 +67,7 @@ const userSchema = new mongoose.Schema(
         ref: "Product",
       },
     ],
-     status: {
+    status: {
       type: String,
       enum: ["active", "inactive", "vip"],
       default: "inactive",
