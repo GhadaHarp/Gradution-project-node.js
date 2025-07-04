@@ -1,0 +1,1076 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Solgar",
+      "name": "Omega-3 Fish Oil",
+      "unitCount": "120 Softgels",
+      "form": "Softgel",
+      "weight": "0.51kg",
+      "activeIngredient": "Omega-3",
+      "category": "supplement",
+      "price": 2690,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sol/sol02053/v/62.jpg",
+      "description": "Supports heart, brain, and joint health with essential fatty acids derived from high-quality fish oil. Helps maintain normal cholesterol levels and overall cardiovascular wellness.",
+      "release_date": "2024-03-01T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 2,
+      "brand": "California Gold Nutrition",
+      "name": "Vitamin E Softgels",
+      "unitCount": "90 Softgels",
+      "form": "Softgel",
+      "weight": "0.09kg",
+      "activeIngredient": "Vitamin E",
+      "category": "supplement",
+      "price": 1000,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01169/v/106.jpg",
+      "description": "A powerful antioxidant that supports skin, immune, and cardiovascular health. Protects cells from oxidative stress and promotes a youthful glow.",
+      "release_date": "2024-02-01T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4"
+    },
+    {
+      "id": 3,
+      "brand": "Nature Made",
+      "name": "Vitamin D3 Tablets",
+      "unitCount": "300 Tablets",
+      "form": "Tablet",
+      "weight": "0.13kg",
+      "activeIngredient": "Omega-3",
+      "category": "supplement",
+      "price": 823.14,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ndm/ndm02683/v/8.jpg",
+      "description": "Promotes strong bones, immune function, and overall wellness by enhancing calcium absorption. Ideal for those with limited sun exposure.",
+      "release_date": "2024-05-05T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "5"
+    },
+    {
+      "id": 4,
+      "brand": "Optimum Nutrition",
+      "name": "Gold Standard Whey Protein",
+      "unitCount": "120 tablets",
+      "form": "Powder",
+      "weight": "907g",
+      "activeIngredient": "Protein",
+      "category": "supplement",
+      "price": 3164.47,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02956/v/50.jpg",
+      "description": "High-quality whey protein to support muscle growth and recovery. Rich in essential amino acids for peak performance and lean muscle development.",
+      "release_date": "2024-05-06T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "5"
+    },
+    {
+      "id": 5,
+      "brand": "21st Century",
+      "name": "Iron Tablets",
+      "unitCount": "120 Tablets",
+      "form": "Tablet",
+      "weight": " 0.11kg",
+      "activeIngredient": "Iron",
+      "category": "supplement",
+      "price": 288.35,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22670/v/41.jpg",
+      "description": "Essential for oxygen transport and reducing fatigue. Supports red blood cell formation and prevents iron deficiency anemia.",
+      "release_date": "2024-06-06T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "5"
+    },
+    {
+      "id": 6,
+      "brand": "Super Nutrition",
+      "name": "Calcium Tablets",
+      "unitCount": "180 Tablets",
+      "form": "Tablet",
+      "weight": " 0.33kg",
+      "activeIngredient": "Calcium",
+      "category": "supplement",
+      "price": 3832.86,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/spn/spn02442/v/9.jpg",
+      "description": "Calcium tablets from Super Nutrition provide a high-quality source of calcium, an essential mineral for maintaining healthy bones and teeth",
+      "release_date": "2024-05-1T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "5"
+    },
+
+    {
+      "id": 7,
+      "brand": "Emergen-C",
+      "name": "Vitamin C Powder Packets",
+      "unitCount": "0.52kg powder",
+      "form": "Powder",
+      "weight": "0.52kg",
+      "activeIngredient": "Vitamin C",
+      "category": "supplement",
+      "price": 1317.12,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lex/lex08445/v/115.jpg",
+      "description": "Vitamin C Powder Packets are a convenient way to support immunity, skin health, and iron absorption. Just mix with water for a quick, healthy drink.",
+      "release_date": "2024-3-09T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4"
+    },
+    {
+      "id": 8,
+      "brand": "Nature's Truth",
+      "name": "Magnesium Softgels",
+      "unitCount": "72 Softgels",
+      "form": "Softgel",
+      "weight": "0.19kg",
+      "activeIngredient": "Magnesium",
+      "category": "supplement",
+      "price": 588.36,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth11098/v/40.jpg",
+      "description": "Magnesium Softgels support muscle relaxation, bone health, and overall nervous system function. Easy to swallow and ideal for daily wellness.",
+      "release_date": "2024-09-01T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "3.5"
+    },
+    {
+      "id": 9,
+      "brand": "California Gold Nutrition",
+      "name": "Organic Coconut Oil",
+      "unitCount": "473.18 ml",
+      "form": "Liquid",
+      "weight": "0.51kg",
+      "activeIngredient": "Coconut Oil",
+      "category": "supplement",
+      "price": 551.3,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01190/v/123.jpg",
+      "description": "Organic Coconut Oil is a natural, versatile oil rich in healthy fats. It hydrates skin, nourishes hair, and supports heart health. Perfect for cooking, skincare, and haircare.",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "5"
+    },
+    {
+      "id": 10,
+      "brand": "Solumeve",
+      "name": "Collagen Peptides Powder",
+      "unitCount": "250 Grams",
+      "form": "Powder",
+      "weight": "0.57kg",
+      "activeIngredient": "collagen",
+      "category": "supplement",
+      "price": 1231.84,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/slm/slm01826/v/80.jpg",
+      "description": "Collagen Peptides Powder is a high-quality supplement that supports skin elasticity, joint health, and hair growth. It’s easily absorbed and can be mixed into drinks or recipes for daily use.",
+      "release_date": "2024-10-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "5"
+    },
+    {
+      "id": 11,
+      "brand": "Swanson",
+      "name": "Vitamin B12 Sublingual Tablets",
+      "unitCount": "60 Tablets",
+      "form": "Sublingual Tablet",
+      "weight": "0.05kg",
+      "activeIngredient": "Vitamin B12",
+      "category": "supplement",
+      "price": 870.78,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02842/v/8.jpg",
+      "description": "Boost energy, support nerve health, improve mood, and aid red blood cell production. Ideal for B12 deficiency and quick absorption.",
+      "release_date": "2024-10-09T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 12,
+      "brand": "California Gold Nutrition",
+      "name": "Vitamin A Softgels",
+      "unitCount": "360 Softgels",
+      "form": "Softgel",
+      "weight": "0.15kg",
+      "activeIngredient": "Vitamin A",
+      "category": "supplement",
+      "price": 734.24,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01180/v/183.jpg",
+      "description": "Support eye health, immune function, and skin health. Rich in antioxidants, promoting cell growth and vision. Suitable for overall well-being.",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 13,
+      "brand": "Enzymedica",
+      "name": "Probiotics Capsules",
+      "unitCount": "90 Capsules",
+      "form": "Capsule",
+      "weight": "0.05kg",
+      "activeIngredient": "Probiotics",
+      "category": "supplement",
+      "price": 787.09,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/enz/enz13041/v/20.jpg",
+      "description": "Support digestive health by promoting a healthy gut balance. Enhance immunity, aid in nutrient absorption, and improve overall digestion.",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 14,
+      "brand": "Nordic Naturals",
+      "name": "Ultimate Omega Softgels",
+      "unitCount": "60 Softgels",
+      "form": "Softgel",
+      "weight": "0.11kg",
+      "activeIngredient": "Fish Oil",
+      "category": "supplement",
+      "price": 1680.34,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01808/v/51.jpg",
+      "description": "Rich in EPA and DHA omega-3 fatty acids, these softgels support heart, brain, and joint health. They promote a healthy inflammatory response and overall well-being.",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 15,
+      "brand": " Swanson",
+      "name": "Vitamin K2 Softgels",
+      "unitCount": "30 Softgels",
+      "form": "Softgel",
+      "weight": "0.02kg",
+      "activeIngredient": "Vitamin K2",
+      "category": "supplement",
+      "price": 786.15,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02819/v/8.jpg",
+      "description": "Supports bone and cardiovascular health by promoting calcium balance in the body. Helps enhance calcium absorption in bones and teeth, while preventing its buildup in arteries.",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 16,
+      "brand": "Ancient Nutrition",
+      "name": "Probiotics Capsules",
+      "unitCount": "30 Capsules",
+      "form": "Capsule",
+      "weight": "0.04kg",
+      "activeIngredient": "Probiotics",
+      "category": "supplement",
+      "price": 971.97,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/atn/atn02526/v/24.jpg",
+      "description": "Promote a healthy gut microbiome by introducing beneficial bacteria. Aid in digestion, boost immunity, and support overall digestive health. Perfect for maintaining balance and preventing digestive discomfort.",
+      "release_date": "2024-09-09T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 17,
+      "brand": "NOW Foods",
+      "name": "Fish Oil Softgels",
+      "unitCount": "200 Softgels",
+      "form": "Softgel",
+      "weight": "0.34kg",
+      "activeIngredient": "Fish Oil",
+      "category": "supplement",
+      "price": 917.63,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now01648/v/48.jpg",
+      "description": "Rich in Omega-3 fatty acids, these softgels support heart health, reduce inflammation, and promote brain function. A convenient way to incorporate essential nutrients for overall well-being and immune support",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 18,
+      "brand": "Swanson",
+      "name": "Vitamin C Tablets",
+      "unitCount": "250 Tablets",
+      "form": "Tablet",
+      "weight": "0.59kg",
+      "activeIngredient": "Vitamin C",
+      "category": "supplement",
+      "price": 1645.83,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01946/v/8.jpg",
+      "description": "Supports immune function, promotes healthy skin, and acts as a powerful antioxidant. Essential for collagen production and overall wellness, these tablets provide an easy way to maintain optimal Vitamin C levels daily.",
+      "release_date": "2024-10-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 19,
+      "brand": "EVLution Nutrition",
+      "name": "Vitamin D3 Softgels",
+      "unitCount": "120 Softgels",
+      "form": "Softgel",
+      "weight": "0.06kg",
+      "activeIngredient": "Vitamin D3",
+      "category": "supplement",
+      "price": 280.14,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl02301/v/40.jpg",
+      "description": "Supports bone health, enhances immune function, and helps maintain healthy muscle function. These softgels provide an easy way to boost your Vitamin D3 intake, especially for those who may lack sunlight exposure.",
+      "release_date": "2024-09-07T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 20,
+      "brand": " Thorne",
+      "name": "Thorne",
+      "unitCount": "60 Capsules",
+      "form": "capsules",
+      "weight": "0.02kg",
+      "activeIngredient": "Vitamin D",
+      "category": "supplement",
+      "price": 980.23,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr13801/v/54.jpg",
+      "description": "Thorne is a well-known brand for high-quality supplements, focusing on purity and safety, offering products free from additives and gluten.",
+      "release_date": "2024-09-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+
+    {
+      "id": 21,
+      "brand": "Garden of Life",
+      "name": "Vitamin Code Raw Zinc",
+      "unitCount": "60 Capsules",
+      "form": "Capsule",
+      "weight": "0.2kg",
+      "activeIngredient": "Zinc",
+      "category": "supplement",
+      "price": 1200.5,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gol/gol11381/v/52.jpg",
+      "description": "Supports immune health, skin health, and overall wellness with raw, whole-food zinc. Contains live probiotics and enzymes for better absorption.",
+      "release_date": "2024-07-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great product, but a bit pricey.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Emily Johnson",
+          "reviewerEmail": "emily.johnson@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Works wonders for my immune system!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Michael Brown",
+          "reviewerEmail": "michael.brown@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 22,
+      "brand": "Nature's Bounty",
+      "name": "CoQ10 Softgels",
+      "unitCount": "120 Softgels",
+      "form": "Softgel",
+      "weight": "100mg",
+      "activeIngredient": "Coenzyme Q10",
+      "category": "supplement",
+      "price": 950.75,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02560/v/8.jpg",
+      "description": "Supports heart health and energy production with CoQ10, a vital nutrient for cellular energy. Promotes overall cardiovascular wellness.",
+      "release_date": "2024-08-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent for energy and heart health!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Sarah Lee",
+          "reviewerEmail": "sarah.lee@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but takes time to see results.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "David Wilson",
+          "reviewerEmail": "david.wilson@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.7"
+    },
+    {
+      "id": 23,
+      "brand": "Jarrow Formulas",
+      "name": "Lutein 20 mg",
+      "unitCount": "120 Softgels",
+      "form": "Softgel",
+      "weight": "0.09kg",
+      "activeIngredient": "Lutein",
+      "category": "supplement",
+      "price": 900.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lkn/lkn01542/y/104.jpg",
+      "description": "Supports eye health and protects against oxidative stress with high-quality lutein. Helps maintain healthy vision and macular health.",
+      "release_date": "2024-06-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great for eye health!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Linda Green",
+          "reviewerEmail": "linda.green@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Works well, but a bit expensive.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Robert White",
+          "reviewerEmail": "robert.white@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.6"
+    },
+    {
+      "id": 24,
+      "brand": "Doctor's Best",
+      "name": "High Absorption Magnesium",
+      "unitCount": "240 capsules",
+      "form": "Tablet",
+      "weight": "0.24kg",
+      "activeIngredient": "Magnesium",
+      "category": "supplement",
+      "price": 780.25,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01902/v/70.jpg",
+      "description": "Supports muscle relaxation, bone health, and overall wellness with high-absorption magnesium. Helps reduce fatigue and promote relaxation.",
+      "release_date": "2024-07-05T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Helps with my muscle cramps!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Jessica Brown",
+          "reviewerEmail": "jessica.brown@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but takes time to see results.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Daniel Green",
+          "reviewerEmail": "daniel.green@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 25,
+      "brand": "SWANSON",
+      "name": "Super Omega-3 EPA/DHA",
+      "unitCount": "240 Softgels",
+      "form": "Softgel",
+      "weight": "0.43kg",
+      "activeIngredient": "Omega-3",
+      "category": "supplement",
+      "price": 1500.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/spn/spn02141/v/30.jpg",
+      "description": "Supports heart, brain, and joint health with high-quality omega-3 fatty acids. Promotes a healthy inflammatory response and overall wellness.",
+      "release_date": "2024-08-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent for heart health!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Karen White",
+          "reviewerEmail": "karen.white@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but a bit pricey.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Mark Johnson",
+          "reviewerEmail": "mark.johnson@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.7"
+    },
+    {
+      "id": 26,
+      "brand": "California Gold Nutrition",
+      "name": "Grape Seed Extract",
+      "unitCount": "120 Capsules",
+      "form": "Capsule",
+      "weight": "0.10kg",
+      "activeIngredient": "Grape Seed Extract",
+      "category": "supplement",
+      "price": 650.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01194/l/164.jpg",
+      "description": "Rich in antioxidants, grape seed extract supports cardiovascular health, skin health, and overall wellness. Helps protect against oxidative stress.",
+      "release_date": "2024-06-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great for skin health!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Sophia Lee",
+          "reviewerEmail": "sophia.lee@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but takes time to see results.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "James Brown",
+          "reviewerEmail": "james.brown@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.6"
+    },
+    {
+      "id": 27,
+      "brand": "NOW Foods",
+      "name": "Vitamin D3 10,000 IU",
+      "unitCount": "120 Capsules",
+      "form": "Capsule",
+      "weight": "0.05kg",
+      "activeIngredient": "Vitamin D3",
+      "category": "supplement",
+      "price": 1100.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now00376/v/79.jpg",
+      "description": "Supports bone health, immune function, and overall wellness with high-potency vitamin D3. Ideal for those with limited sun exposure.",
+      "release_date": "2024-07-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent for immune support!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Emma Wilson",
+          "reviewerEmail": "emma.wilson@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but a bit pricey.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "William Green",
+          "reviewerEmail": "william.green@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.7"
+    },
+    {
+      "id": 28,
+      "brand": " California Gold Nutritiony",
+      "name": "Turmeric Curcumin",
+      "unitCount": "60 Capsules",
+      "form": "Capsule",
+      "weight": "0.08 kg",
+      "activeIngredient": "Turmeric",
+      "category": "supplement",
+      "price": 900.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn00940/v/147.jpg",
+      "description": "Supports joint health, immune function, and overall wellness with high-quality turmeric curcumin. Helps reduce inflammation and promote a healthy inflammatory response.",
+      "release_date": "2024-05-10T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great for joint pain!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Olivia Brown",
+          "reviewerEmail": "olivia.brown@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but takes time to see results.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Noah White",
+          "reviewerEmail": "noah.white@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.6"
+    },
+    {
+      "id": 29,
+      "brand": "Nature's Way",
+      "name": "Alive! Multivitamin",
+      "unitCount": "60 Tablets",
+      "form": "Tablet",
+      "weight": "0.16kg",
+      "activeIngredient": "Multivitamin",
+      "category": "supplement",
+      "price": 750.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nwy/nwy15685/y/154.jpg",
+      "description": "A comprehensive multivitamin that supports overall health and wellness. Contains a blend of vitamins, minerals, and antioxidants for daily nutrition.",
+      "release_date": "2024-07-20T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great for daily energy!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Ava Johnson",
+          "reviewerEmail": "ava.johnson@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but a bit large to swallow.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Liam Brown",
+          "reviewerEmail": "liam.brown@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.5"
+    },
+    {
+      "id": 30,
+      "brand": "Super Nutrition",
+      "name": "men's One Multivitamin",
+      "unitCount": "90 Tablets",
+      "form": "Tablet",
+      "weight": "0.23kg",
+      "activeIngredient": "Multivitamin",
+      "category": "supplement",
+      "price": 800.0,
+      "imageUrl": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/spn/spn00196/v/41.jpg",
+      "description": "A complete multivitamin designed specifically for men's health. Supports energy, immune function, and overall wellness with a blend of essential nutrients.",
+      "release_date": "2024-08-05T23:59:59.000Z",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great for daily energy and focus!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Ethan Green",
+          "reviewerEmail": "ethan.green@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Good product, but a bit large to swallow.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Mia White",
+          "reviewerEmail": "mia.white@x.dummyjson.com"
+        }
+      ],
+      "rating": "4.6"
+    }
+  ]
+}

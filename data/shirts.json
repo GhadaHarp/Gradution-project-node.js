@@ -1,0 +1,2844 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Sportswear - Sport Sweatpants With Line - High Waist",
+      "brand": "Nileton",
+      "price": 1200,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z844D0085938185D437FAZ/45/_/1664006750/43870162-8af6-4deb-a7c0-230e0c22ef53.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Normal wash True to size, take your usual size It Doesn’t shrink or stretch out Made of the finest raw materials Ideal for regular use",
+      "color": "Black",
+      "material": "Polyester",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 5,
+      "release_date": "2024-01-10T23:59:59.000Z",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sportswear - Sport Leggings Pants With Wide Leg - High Waist",
+      "brand": "Nileton",
+      "price": 395.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z0FAB4D7D62403E4039E1Z/45/_/1695038968/0bd1742f-b121-4b9d-bd20-73c8c1f59fdd.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Normal wash True to size, take your usual size It Doesn’t shrink or stretch out Made of the finest raw materials Ideal for regular use",
+      "color": "Navy",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 5,
+      "release_date": "2024-02-10T23:20:00.000Z",
+      "rating": 4.0,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sport top curved Hem long sleeves - Sport T-shirt Crew Neck",
+      "brand": "Nileton",
+      "price": 400.97,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZD011F617F1F172C4EFDAZ/45/_/1732099368/d339cfa0-d697-492e-8d92-164cf1461155.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-03-10T23:21:00.000Z",
+      "rating": 3.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sportswear - Sport Top Long Sleeves",
+      "brand": "Nileton",
+      "price": 340.97,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZC9BA15742652D6C08D9FZ/45/_/1658920773/48f46588-2c00-427e-a99e-9cef27b085d4.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Eggplant",
+      "material": "Polyester",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-03-24T23:22:00.000Z",
+      "rating": 3.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sport Jacket - Long Sleeve Top Full Zipper T-shirt With Side Pockets And Thumb Hole For Women",
+      "brand": "Nileton",
+      "price": 375.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZD8715523599DCBEDA08BZ/45/_/1708160588/23faa300-1507-4af3-8615-b6f241171230.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "lycra-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 6,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sportswear - Sport Top Long Sleeves",
+      "brand": "Nileton",
+      "price": 375.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZC03871B1E959457E4503Z/45/_/1671437159/3e0d06b0-fea4-4d1c-b12d-bf5741d81888.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "High Waist Sportswear Leggings Pants Wide Leg Black",
+      "brand": "Nileton",
+      "price": 375.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZDC0ADA3FCA8E3DE4453CZ/45/_/1701007920/35a92e8c-a118-4842-9603-7f57b4f2463f.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bundle OF Two Cotton Women Legging - Black",
+      "brand": "Mesery",
+      "price": 399.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZEAE9999C34660C258D05Z/45/_/1674291709/d28e6ae5-b430-4b63-8bec-c197834ae121.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "black",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bundle OF Two Cotton Women Legging - Black",
+      "brand": "Mesery",
+      "price": 399.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z1044F8063F50FB708783Z/45/_/1710067008/a954ef15-81c1-41a2-b583-e8570c2bf70f.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "black",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-06-03T23:21:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Beachwood Luxe Legging",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/4028_LuxeLegging_23_S_Beachwood_2_web_1280x.jpg?v=1714775167",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Our most luxurious legging yet. These medium compression heavyweight leggings are complete with a high rise, subtle matte sheen, and ultra-soft stretch to make them the best combo of your favorite dressy pant and the ultimate lazy day legging",
+      "color": "Beachwood",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-06-04T23:21:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Grey Sports Bra",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/1002_PalomaBra_Moon_flat_web_1280x.jpg?v=1714168788",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Our most luxurious bra yet. These medium compression heavyweight bras are complete with a high rise, subtle matte sheen, and ultra-soft stretch to make them the best combo of your favorite dressy shirts and the ultimate lazy day bras",
+      "color": "Grey",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-06-09T23:18:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Sportswear - Sport Sweatpants With Line - High Waist",
+      "brand": "Nileton",
+      "price": 1200,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z844D0085938185D437FAZ/45/_/1664006750/43870162-8af6-4deb-a7c0-230e0c22ef53.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Normal wash True to size, take your usual size It Doesn’t shrink or stretch out Made of the finest raw materials Ideal for regular use",
+      "color": "Black",
+      "material": "Polyester",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 5,
+      "release_date": "2024-01-10T23:59:59.000Z",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sportswear - Sport Leggings Pants With Wide Leg - High Waist",
+      "brand": "Nileton",
+      "price": 395.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z0FAB4D7D62403E4039E1Z/45/_/1695038968/0bd1742f-b121-4b9d-bd20-73c8c1f59fdd.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Normal wash True to size, take your usual size It Doesn’t shrink or stretch out Made of the finest raw materials Ideal for regular use",
+      "color": "Navy",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 5,
+      "release_date": "2024-02-10T23:20:00.000Z",
+      "rating": 4.0,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sport top curved Hem long sleeves - Sport T-shirt Crew Neck",
+      "brand": "Nileton",
+      "price": 400.97,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZD011F617F1F172C4EFDAZ/45/_/1732099368/d339cfa0-d697-492e-8d92-164cf1461155.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-03-10T23:21:00.000Z",
+      "rating": 3.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sportswear - Sport Top Long Sleeves",
+      "brand": "Nileton",
+      "price": 340.97,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZC9BA15742652D6C08D9FZ/45/_/1658920773/48f46588-2c00-427e-a99e-9cef27b085d4.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Eggplant",
+      "material": "Polyester",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-03-24T23:22:00.000Z",
+      "rating": 3.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sport Jacket - Long Sleeve Top Full Zipper T-shirt With Side Pockets And Thumb Hole For Women",
+      "brand": "Nileton",
+      "price": 375.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZD8715523599DCBEDA08BZ/45/_/1708160588/23faa300-1507-4af3-8615-b6f241171230.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "lycra-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 6,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sportswear - Sport Top Long Sleeves",
+      "brand": "Nileton",
+      "price": 375.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZC03871B1E959457E4503Z/45/_/1671437159/3e0d06b0-fea4-4d1c-b12d-bf5741d81888.jpg?format=avif&width=800",
+      "size_range": ["S", "M", "L", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "High Waist Sportswear Leggings Pants Wide Leg Black",
+      "brand": "Nileton",
+      "price": 375.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZDC0ADA3FCA8E3DE4453CZ/45/_/1701007920/35a92e8c-a118-4842-9603-7f57b4f2463f.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bundle OF Two Cotton Women Legging - Black",
+      "brand": "Mesery",
+      "price": 399.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZEAE9999C34660C258D05Z/45/_/1674291709/d28e6ae5-b430-4b63-8bec-c197834ae121.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "black",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-04-25T23:22:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bundle OF Two Cotton Women Legging - Black",
+      "brand": "Mesery",
+      "price": 399.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z1044F8063F50FB708783Z/45/_/1710067008/a954ef15-81c1-41a2-b583-e8570c2bf70f.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "black",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-06-03T23:21:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Beachwood Luxe Legging",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/4028_LuxeLegging_23_S_Beachwood_2_web_1280x.jpg?v=1714775167",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Our most luxurious legging yet. These medium compression heavyweight leggings are complete with a high rise, subtle matte sheen, and ultra-soft stretch to make them the best combo of your favorite dressy pant and the ultimate lazy day legging",
+      "color": "Beachwood",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-06-04T23:21:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Marble Huddle Half-Zip Windbreaker",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/6006_HuddleHalfZip_S_Marble_0265_web_1280x.jpg?v=1722372255",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "A water-resistant windbreaker pullover with a hideable hood, cinchable waist, and a kangaroo pocket",
+      "color": "Marble",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 2,
+      "release_date": "2024-05-04T23:20:00.000Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Galaxy Estrella Fitted Jacket",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/2030_EstellaVestJacket_XS_Galaxy_1649_web_1280x.jpg?v=1728527844",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "A lightweight fitted FlexTrack jacket that’s ultra-versatile and water-resistant with a bit of stretch",
+      "color": "Galaxy blue",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-05-04T23:20:00.000Z",
+      "rating": 4.6,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Black Raquel Snap Front Jacket",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/2022_RaquelJacket_S_Black_0177_web_1280x.jpg?v=1722372920",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "A lightweight windbreaker to protect you from weather and wind, with a cute boxy shape and a snap front closure",
+      "color": "Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 10,
+      "release_date": "2024-07-04T23:21:00.000Z",
+      "rating": 4.6,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Olivine Heidi Cropped Jacket",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/2021_HeidiCropJacket_S_Ash_2_web_1280x.jpg?v=1717181299",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "A boxy cropped windbreaker with a hood and adjustable ties",
+      "color": "Olivine",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-09-04T23:20:00.000Z",
+      "rating": 4.6,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Moon Compressive High-Rise Legging",
+      "brand": "UNKNOWN",
+      "price": 399.0,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0019/2217/0943/files/4007_HRLegging_28_Moon_6_web_1280x.jpg?v=1714169659",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Our #1 seller. Compressive, squat-proof, ultra-high rise sustainable leggings made from 25 recycled water bottles.",
+      "color": "Moon",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-09-04T23:20:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "TECHFIT 3-Stripes 7/8 Leggings",
+      "brand": "Adidas",
+      "price": 390.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZB15A81A1656942717DD4Z/45/_/1738668816/d0dc7490-32c5-4795-a970-9ecd17e7014d.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Our #1 seller. Compressive, squat-proof, ultra-high rise sustainable leggings made from 25 recycled water bottles.",
+      "color": "Black",
+      "material": "Polyester-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-09-04T23:20:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Train Essentials Big Logo Performance Training T-Shirt",
+      "brand": "Adidas",
+      "price": 370.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z282FDCB9FBCCD3A09A3BZ/45/_/1738668688/7223ddd7-830e-41a8-a173-d30fe9ed8d3c.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "An AEROREADY training tee made in part with recycled materials.",
+      "color": "Black",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-10-04T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Ess Logo Full-Zip Hoodie Fl Black",
+      "brand": "Adidas",
+      "price": 370.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/ZE76C0EF97A6C83B972BEZ/45/_/1735131014/7a542abe-eaed-4abc-a626-2f74ab838b39.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "An AEROREADY training tee made in part with recycled materials.",
+      "color": "Black",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 3,
+      "release_date": "2024-10-04T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "adidas Z.N.E. Hooded Sweatshirt",
+      "brand": "Adidas",
+      "price": 370.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/2b0275cf948d4faa88cfb16a09b959b3_9366/JF4782_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "Made in Egypt For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Baby Pink",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-10-04T23:22:00.000Z",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Rhinestone Trefoil Loose Crop Hoodie",
+      "brand": "Adidas",
+      "price": 500.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/bd8c07746abf410a9a5e3653327dd356_9366/IW5697_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-10-04T23:22:00.000Z",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "adidas Z.N.E. Hooded Sweatshirt",
+      "brand": "Adidas",
+      "price": 525.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/d7993b29890f4bc7867059ac2a6c0d79_9366/JE7860_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 8,
+      "release_date": "2024-10-04T23:22:00.000Z",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "ALL SZN Fleece Full-Zip Hoodie",
+      "brand": "Adidas",
+      "price": 800.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/7a303de1b6014809867ba513dde67156_9366/IX3809_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "ALL SZN French Terry Loose Hoodie",
+      "brand": "Adidas",
+      "price": 800.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/c488ee7b1bf64e9dbe417dd39abfb526_9366/IY6808_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Preloved Crimson",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Future Icons 3-Stripes Hoodie",
+      "brand": "Adidas",
+      "price": 850.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/090f5b68517449dca05c9fbfaa5125d0_9366/IP1533_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Future Icons 3-Stripes Full Zip Hoodie",
+      "brand": "Adidas",
+      "price": 850.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/8dc4d2a66bed4f9f956fff6145471e2a_9366/IW5254_25_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "ALL SZN Fleece Full-Zip Hoodie",
+      "brand": "Adidas",
+      "price": 550.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/19282716b47646cd8942401da77be981_9366/IY6803_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Grey",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Cropped Hoodie",
+      "brand": "Adidas",
+      "price": 590.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/548e71f1938e4379a8388e14cbde22d1_9366/IS1950_25_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Beige",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "adidas Z.N.E. Full-Zip Hoodie",
+      "brand": "Adidas",
+      "price": 590.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/e519df2ecf884855a6961c46793b4637_9366/JF4789_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Wonder Quartz",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-11-09T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "adidas Z.N.E. Overhead Hoodie",
+      "brand": "Adidas",
+      "price": 530.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/068a2321511940269b2bafa4010ddfbf_9366/IN5124_25_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Silver",
+      "material": "cotton-lycra",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["Women"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "adidas x NTS Radio Jersey",
+      "brand": "Adidas",
+      "price": 580.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/21410618244147fd949934144c696032_9366/JI5132_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Bliss Blue",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Premium Jersey",
+      "brand": "Adidas",
+      "price": 700.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/c5ba333549a046ffa136d65ba1709575_9366/IZ4858_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Train Essentials Camo Graphic Logo Tee",
+      "brand": "Adidas",
+      "price": 900.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/50c6e59514a042c3831936584d73934b_9366/IS6151_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-09T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "adidas x NTS Radio Jersey",
+      "brand": "Adidas",
+      "price": 920.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/e7bcd323caed45ef87a47d4ebdf5985d_9366/JI5068_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-09T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Terrex Xperior Merino 150 Baselayer Long Sleeve Tee",
+      "brand": "Adidas",
+      "price": 1020.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/50db1b32c549467c980300be1e3318e5_9366/HZ8559_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Terrex Xperior Merino 150 Baselayer Long Sleeve Tee",
+      "brand": "Adidas",
+      "price": 1020.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/24c75a29a7424c0380c918d463ca9b07_9366/IK9688_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "adidas x NTS Radio Jersey",
+      "brand": "Adidas",
+      "price": 2000.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/d69c3cf4e7d74cc5bfa3a24da53ad0c0_9366/JI5151_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Collegiate Green / White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Neuclassics Tee",
+      "brand": "Adidas",
+      "price": 2400.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/79409c07de3841a0bbf44223f2ded81a_9366/JC9933_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Neuclassics Tee",
+      "brand": "Adidas",
+      "price": 2900.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/9cb4133848d3490ba1d19c6d8e87e3c2_9366/JC9932_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Cardboard",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Neuclassics Tee",
+      "brand": "Adidas",
+      "price": 340.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/7b322ed7521c434d9d239420fe674f80_9366/IX7349_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Red",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Neuclassics Tee",
+      "brand": "Adidas",
+      "price": 940.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/3fdb2a27cd55405e8cfa9da712ac432b_9366/IX6727_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Red",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-09T23:12:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Run It Brand Love Tee",
+      "brand": "Adidas",
+      "price": 940.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/875ffea8e301485cbc50605e0dd455ad_9366/JD2333_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-09T23:12:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "House of Tiro Summer Graphic Tee",
+      "brand": "Adidas",
+      "price": 950.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/85682579886848369a6396bf2c3da927_9366/IW2665_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-09T23:12:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "All Day I Dream About...Graphic Tee",
+      "brand": "Adidas",
+      "price": 950.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/9b198da192d64fd0bfa66d971b39a039_9366/IW2741_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-09T23:12:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Outlined Trefoil Tee",
+      "brand": "Adidas",
+      "price": 765.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/b39a2403b2f445b5906c5153587df6a7_9366/IY4890_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Cloud White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-08T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Adicolor Classics Back+Front Trefoil Boxy Tee",
+      "brand": "Adidas",
+      "price": 765.0,
+      "imageUrl": "https://assets.adidas.com/images/w_940,f_auto,q_auto/ccc3a238fbbc458783e3afd000e91576_9366/IM4513_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White / Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-10T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Own the Run Colorblock AEROREADY Tee",
+      "brand": "Adidas",
+      "price": 790.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/4bd8ffefbd984fd0a6c6fcd0ba1bafb5_9366/IW0038_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Wonder Beige",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-10T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Own the Run Colorblock AEROREADY Tee",
+      "brand": "Adidas",
+      "price": 790.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/4bd8ffefbd984fd0a6c6fcd0ba1bafb5_9366/IW0038_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Semi Cobalt Blue / Blue Spark",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-10T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "adidas x NTS Radio Jersey",
+      "brand": "Adidas",
+      "price": 790.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/525ca1e53d854dc8a49e97f8f85c8e25_9366/JI5150_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Bright Red",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-10T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "adidas x NTS Radio Jersey",
+      "brand": "Adidas",
+      "price": 790.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/c07c54a417e84497a60a428a6372a9b5_9366/IX9080_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Bright Red",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-10T23:22:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Atlanta Shorts",
+      "brand": "Adidas",
+      "price": 600.0,
+      "imageUrl": "https://assets.adidas.com/images/w_450,f_auto,q_auto/07aeb91268ce4cdca582c2fac520e146_9366/IX6729_23_hover_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Cloud White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-16T23:20:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Tiro 24 Shorts",
+      "brand": "Adidas",
+      "price": 650.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/5d0875f5e09442c0a148cc2b8eb166af_9366/IR9376_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Cloud White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-16T23:20:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Cargo Shorts",
+      "brand": "Adidas",
+      "price": 650.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/e3f833a24db6471599d3ebcca44f9ef7_9366/IY2073_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Cloud White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-16T23:20:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Tiro 24 Shorts",
+      "brand": "Adidas",
+      "price": 650.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/64463edf81884fc1bbaa94d1da2a9639_9366/IR9380_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-16T23:20:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "M Np Df 3Qt Tight",
+      "brand": "Nike",
+      "price": 650.0,
+      "imageUrl": "https://f.nooncdn.com/p/pzsku/Z2E921BB3F138134525D6Z/45/_/1731581424/55b17ccf-50de-4573-b297-998c7ed837bc.jpg?format=avif&width=800",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-16T23:20:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Graphics Animal Shorts",
+      "brand": "Nike",
+      "price": 650.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/563ade43de1f42a58bda94da1a14639f_9366/IJ5601_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Beige",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-16T23:20:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Graphics Animal Shorts",
+      "brand": "Adidas",
+      "price": 680.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/563ade43de1f42a58bda94da1a14639f_9366/IJ5601_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Beige",
+      "material": "cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-18T23:70:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Tiro 23 League Shorts",
+      "brand": "Adidas",
+      "price": 980.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/56d8754db8424115b77faef500bc9be4_9366/IB8081_01_laydown.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Team Navy Blue 2 / White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-18T23:70:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "D4T Pro Series Adistrong Workout Shorts",
+      "brand": "Adidas",
+      "price": 1000.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/e8435bd72a13436eaa7fd7fcb3b9b9a8_9366/IT7519_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Grey Three / Black",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-18T23:70:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "D4T Pro Series Adistrong Workout Shorts",
+      "brand": "Adidas",
+      "price": 1000.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/48eb43fe0d694740af6a485ef1df6fbf_9366/JF9148_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "White",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "shirts",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-18T23:70:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "VRCT Shorts",
+      "brand": "Adidas",
+      "price": 1000.0,
+      "imageUrl": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/48eb43fe0d694740af6a485ef1df6fbf_9366/JF9148_21_model.jpg",
+      "size_range": ["S", "m", "L", "XL", "XXL", "XXL"],
+      "description": "For all-day comfort Made from the Finest material True to size, take your usual size It Doesn’t shrink or stretch out",
+      "color": "Earth Strata",
+      "material": "Polyester-cotton",
+      "category": "clothes",
+      "subCategory": "pants",
+      "gender": ["men"],
+      "stock": 1,
+      "release_date": "2024-12-18T23:70:00.000Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ]
+    }
+  ]
+}

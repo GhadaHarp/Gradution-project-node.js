@@ -1,0 +1,148 @@
+Products API :
+1- to get all products 
+http://127.0.0.1:8000/products
+
+2- to get products based on any property for example category
+http://127.0.0.1:8000/products?category=clothes
+http://127.0.0.1:8000/products?subCategory=pants
+http://127.0.0.1:8000/products?price=500
+
+
+IMPORTANT GENDER 
+http://127.0.0.1:8000/products?gender=men
+http://127.0.0.1:8000/products?gender=women
+http://127.0.0.1:8000/products?gender=men,women
+
+
+3- to sort products based on any property
+http://127.0.0.1:8000/products?gender=women&sort=price    - for descending and no - for ascending 
+http://127.0.0.1:8000/products?gender=women&sort=-price,stock    first price then stock
+
+
+4- to get the results of a certian page
+http://127.0.0.1:8000/products?page=2&limit=10     limit is the number of products in every page 
+
+
+5- to delete , update(PATCH) or GET a product
+http://127.0.0.1:8000/products/productID
+
+
+USERS API:
+
+1- to login => send a POST request with the email and password to
+http://127.0.0.1:8000/users/login 
+
+
+2- to signup => send a POST request with the firstName ,lastName , email , password , passwordConfirm to
+http://127.0.0.1:8000/users/signup  
+
+
+3- users routes have the same structure as products but it is restricted to the admin 
+http://127.0.0.1:8000/users
+http://127.0.0.1:8000/users/userID 
+
+
+CART API:
+**user has to be logged in and you have to send the token in the HEADERS****
+
+1- to add the products to the user's cart in the database => send a POST request with a request body like this 
+ {
+    "products":[
+   {"productId":"67bb27a8f4f9fb287d27f56a","quantity":2,size:"XL"},
+   {"productId":"67bb27a8f4f9fb287d27f56d","quantity":1,size:"5.5"}
+  ]
+  }
+  to http://127.0.0.1:8000/cart   
+
+
+  2- to create an order in the database and clear the user's cart in the database => send a post to
+
+
+  http://127.0.0.1:8000/cart/checkout
+
+ 3-To remove product from cart  send a delete request to 
+ http://127.0.0.1:8000/cart 
+ with
+ {
+  "productId": "65478", required
+  "currentSize": "M",  required
+  "newSize": "L",     if you wat to update the size
+  "quantity": 5       if you wat to update the quantity
+}
+
+ 4- To updated an item in cart make a PATCH request to 
+   http://127.0.0.1:8000/cart
+   with {} 
+
+
+Reviews API :
+
+1- to get all reviews 
+http://127.0.0.1:8000/reviews
+
+
+2- to get all reviews for a specific product 
+GET
+http://127.0.0.1:8000/products/productID/reviews
+
+
+3- to create a review for a product => send a POST request with the request body containing the review 
+{"review":"review text"}
+
+ http://127.0.0.1:8000/products/productID/reviews
+
+ 
+
+
+ 4- to delete a review 
+ http://127.0.0.1:8000/reviews/reviewID
+
+
+ FAVORITES API:
+
+ *****the user id comes from the TOKEN sent with the HEADERS if you do not send it none of this will work and all other routes as well**********
+  
+ 1-to add a product to favorites => send a PATCH request with the request body containing the productId
+
+ http://127.0.0.1:8000/favorites/add
+{
+  "productId:"67d089721361994d6c42fbca"
+}
+
+ 2-to remove a product from favorites => send a PATCH request with the request body containing the productId
+
+ http://127.0.0.1:8000/favorites/remove
+{
+  "productId:"67d089721361994d6c42fbca"
+}
+
+3-to get the user's favorites send a GET request 
+
+
+ http://127.0.0.1:8000/favorites
+
+
+--- TO DELETE AN ORDER 
+send a DELETE request to this url with id being the order's id
+ http://127.0.0.1:8000/orders/:id
+
+
+
+---SIGNUP WITH GOOGLE
+
+1- sign up with google button should make a GET request to 
+ http://127.0.0.1:8000/auth/google 
+
+ the user chooses a google account 
+ then a user is created in the database with the user's email and a placeholder password so the user can not log in with their
+ google's email and password unless the change the password through the password reset functionality 
+
+ - a token is created and sent through the url 
+ `http://localhost:4200/home?token=${token}`
+
+ - in the frontend the token is taken from the url and stored in local storage and sent in the headers of each request 
+ so the user can navigate to protected routes 
+
+2- log in with google should follow the same steps for now until any erros are discovered 
+
+
