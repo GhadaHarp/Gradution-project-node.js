@@ -111,6 +111,9 @@ const updateCart = catchAsync(async (req, res, next) => {
   const { updates } = req.body;
   const user = await User.findById(req.user._id);
   if (!user) return next(new AppError("User not found", 404));
+  if (!Array.isArray(updates) || !updates.length) {
+    return next(new AppError("Updates array is required", 400));
+  }
 
   for (const update of updates) {
     const { productId, currentSize, newSize, quantity } = update;
@@ -119,41 +122,55 @@ const updateCart = catchAsync(async (req, res, next) => {
     const product = await Product.findById(productId);
     if (!product) return next(new AppError("Product not found", 404));
 
-    const sizeForProduct = product.size_range?.length ? currentSize : "";
-    const cartItem = findCartItem(user.cart, productId, sizeForProduct);
+    const requiresSize = product.size_range?.length > 0;
+    const sizeInCart = requiresSize ? currentSize : undefined;
+
+    const cartItem = user.cart.find(
+      (item) =>
+        item.product.toString() === productId &&
+        (requiresSize ? item.size === sizeInCart : !item.size)
+    );
+
     if (!cartItem) return next(new AppError("Item not found in cart", 404));
 
-    const targetSize = product.size_range?.length ? newSize || currentSize : "";
-    const availableStock = product.size_range?.length
+    const targetSize = requiresSize ? newSize || currentSize : undefined;
+    const availableStock = requiresSize
       ? product.stock_by_size?.get(targetSize)
       : product.stock;
 
     if (availableStock === undefined)
-      return next(new AppError("Size not available", 400));
-
-    const finalQuantity = quantity !== undefined ? quantity : cartItem.quantity;
-
-    const duplicateItem = findCartItem(user.cart, productId, targetSize);
-    const totalDesired =
-      finalQuantity +
-      (duplicateItem && duplicateItem !== cartItem
-        ? duplicateItem.quantity
-        : 0);
-
-    if (totalDesired > availableStock)
       return next(
         new AppError(
-          `Only ${availableStock} in stock for size ${targetSize}`,
+          requiresSize
+            ? `Size ${targetSize} not available for this product`
+            : "Product stock not available",
           400
         )
       );
 
-    if (
-      newSize &&
-      newSize !== currentSize &&
-      duplicateItem &&
-      duplicateItem !== cartItem
-    ) {
+    const finalQuantity = quantity !== undefined ? quantity : cartItem.quantity;
+
+    const duplicateItem = user.cart.find(
+      (item) =>
+        item.product.toString() === productId &&
+        (requiresSize ? item.size === targetSize : !item.size) &&
+        item !== cartItem
+    );
+
+    const totalDesired =
+      finalQuantity + (duplicateItem ? duplicateItem.quantity : 0);
+
+    if (totalDesired > availableStock)
+      return next(
+        new AppError(
+          `Only ${availableStock} in stock for ${
+            requiresSize ? `size ${targetSize}` : "this product"
+          }`,
+          400
+        )
+      );
+
+    if (requiresSize && newSize && newSize !== currentSize && duplicateItem) {
       duplicateItem.quantity += finalQuantity;
       user.cart = user.cart.filter((item) => item !== cartItem);
     } else {
@@ -164,27 +181,39 @@ const updateCart = catchAsync(async (req, res, next) => {
 
   await user.save({ validateModifiedOnly: true });
   await user.populate({ path: "cart.product", populate: { path: "category" } });
-  res
-    .status(200)
-    .json({ status: "success", message: "Cart updated", cart: user.cart });
+
+  res.status(200).json({
+    status: "success",
+    message: "Cart updated",
+    data: { cart: user.cart },
+  });
 });
 
 const removeFromCart = catchAsync(async (req, res, next) => {
   const { productId, size } = req.body;
   const userId = req.user._id;
 
-  if (!productId || !size) {
-    return next(new AppError("Product ID and size are required", 400));
+  if (!productId) {
+    return next(new AppError("Product ID is required", 400));
   }
 
   const user = await User.findById(userId);
   if (!user) return next(new AppError("User not found", 404));
 
+  const product = await Product.findById(productId);
+  if (!product) return next(new AppError("Product not found", 404));
+
+  const requiresSize = product.size_range?.length > 0;
+
+  if (requiresSize && !size) {
+    return next(new AppError("Size is required for this product", 400));
+  }
+
   const initialLength = user.cart.length;
 
   user.cart = user.cart.filter((item) => {
-    const sameProduct = getProductId(item.product) === productId;
-    const sameSize = (item.size || "").toLowerCase() === size.toLowerCase();
+    const sameProduct = item.product._id.toString() === productId;
+    const sameSize = requiresSize ? item.size === size : !item.size;
     return !(sameProduct && sameSize);
   });
 
@@ -210,7 +239,7 @@ const checkout = catchAsync(async (req, res, next) => {
   let totalPrice = 0;
 
   for (const item of user.cart) {
-    const product = await Product.findById(item.product); // Fetch full Mongoose doc
+    const product = await Product.findById(item.product);
 
     if (!product) return next(new AppError("Product not found", 404));
 
