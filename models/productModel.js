@@ -122,7 +122,7 @@ const productSchema = new mongoose.Schema(
       trim: true,
     },
     imageUrl: {
-      type: [String],
+      type: String,
       required: [true, "A product must have an image"],
     },
     description: {
@@ -141,6 +141,12 @@ const productSchema = new mongoose.Schema(
       type: Number,
       default: 5,
     },
+    stock_by_size: {
+      type: Map,
+      of: Number, // Example: { "S": 10, "M": 5, "L": 8 } or { "3.5": 4, "4": 6 }
+      default: {},
+    },
+
     rating: {
       type: Number,
       default: 4.5,

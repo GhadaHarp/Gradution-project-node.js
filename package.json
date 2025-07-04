@@ -25,6 +25,7 @@
     "nodemon": "^3.1.9",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
+    "stripe": "^18.3.0",
     "validator": "^13.12.0"
   }
 }
