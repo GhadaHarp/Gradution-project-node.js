@@ -18,9 +18,27 @@ const getAllReviews = catchAsync(async (req, res, next) => {
 });
 
 const createReview = catchAsync(async (req, res, next) => {
-  if (!req.body.product) req.body.product = req.params.productId;
-  if (!req.body.user) req.body.user = req.user._id;
-  const newReview = await Review.create(req.body);
+  const productId = req.body.product || req.params.productId;
+  const userId = req.user._id;
+
+  if (!productId) {
+    return next(new AppError("Product ID is required.", 400));
+  }
+
+  const existingReview = await Review.findOne({
+    product: productId,
+    user: userId,
+  });
+  if (existingReview) {
+    return next(new AppError("You have already reviewed this product.", 400));
+  }
+
+  const newReview = await Review.create({
+    ...req.body,
+    product: productId,
+    user: userId,
+  });
+
   res.status(201).json({
     status: "success",
     data: {
@@ -28,6 +46,7 @@ const createReview = catchAsync(async (req, res, next) => {
     },
   });
 });
+
 const deleteReview = catchAsync(async (req, res, next) => {
   const review = await Review.findById(req.params.id);
   if (!review) {
@@ -54,7 +73,7 @@ const updateReview = catchAsync(async (req, res, next) => {
     }
   );
   if (!updatedReview) {
-    return next(new AppError("No Review found with that id"), 404);
+    return next(new AppError("No Review found with that id."), 404);
   }
   res.status(200).json({
     status: "success",
