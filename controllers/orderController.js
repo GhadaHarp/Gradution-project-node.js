@@ -165,7 +165,7 @@ const getOrderBYId = catchAsync(async (req, res) => {
     .populate("user")
     .populate({
       path: "items.product",
-      select: "name price brand images",
+      select: "name price brand imageUrl",
     });
   if (!order) {
     return res.status(404).json({ message: "Order not found" });
