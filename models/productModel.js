@@ -117,10 +117,11 @@ const productSchema = new mongoose.Schema(
       ref: "Category",
       required: [true, "A product must belong to a category"],
     },
+   
     subCategory: {
-      type: String,
-      trim: true,
-    },
+    type: String,
+    enum: ['Shirts', 'Pants'], 
+},
     imageUrl: {
       type: String,
       required: [true, "A product must have an image"],

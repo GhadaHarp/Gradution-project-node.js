@@ -140,9 +140,19 @@ const createOrder = catchAsync(async (req, res, next) => {
 const getOrderBYId = catchAsync(async (req, res, next) => {
   const order = await Order.findById(req.params.id)
     .populate("user")
-    .populate("items.product");
 
-  if (!order) return next(new AppError("Order not found", 404));
+    .populate({
+      path: "items.product",
+      select: "name price brand imageUrl",
+    });
+  if (!order) {
+    return res.status(404).json({ message: "Order not found" });
+  }
+// =======
+//     .populate("items.product");
+
+//   if (!order) return next(new AppError("Order not found", 404));
+// >>>>>>> develop
 
   res.status(200).json({
     status: "success",
