@@ -45,10 +45,6 @@ const orderSchema = new mongoose.Schema(
       postalCode: { type: String, required: true },
       phone: { type: String, required: true },
     },
-    createdAt: {
-      type: Date,
-      default: Date.now(),
-    },
   },
   {
     timestamps: true,
