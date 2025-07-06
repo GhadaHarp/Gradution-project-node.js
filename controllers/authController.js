@@ -7,7 +7,7 @@ const passport = require("passport");
 const sendEmail = require("../utilities/email");
 const crypto = require("crypto");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
-const Admin = require('../models/adminModel');
+const Admin = require("../models/adminModel");
 const bcrypt = require("bcryptjs");
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
@@ -106,7 +106,7 @@ const loginUser = catchAsync(async (req, res, next) => {
   const correct = user && (await user.correctPassword(password, user.password));
 
   if (!user || !correct) {
-    return next(new AppError("Incorrect email or password", 401));
+    return next(new AppError("incorrect email or password", 401));
   }
 
   const token = signToken(user._id);
@@ -129,8 +129,6 @@ const loginUser = catchAsync(async (req, res, next) => {
   });
 });
 
- // اتأكد من المسار
-
 const loginAdmin = catchAsync(async (req, res, next) => {
   const { email, password } = req.body;
   if (!password || !email) {
@@ -139,17 +137,16 @@ const loginAdmin = catchAsync(async (req, res, next) => {
 
   const admin = await Admin.findOne({ email }).select("+password");
 
-  const correct =
-    admin && (await bcrypt.compare(password, admin.password));
+  const correct = admin && (await bcrypt.compare(password, admin.password));
 
   if (!admin || !correct) {
     return next(new AppError("Incorrect email or password", 401));
   }
 
   const token = signToken(admin._id);
-console.log(token);
-console.log(admin);
-// console.log(token);
+  console.log(token);
+  console.log(admin);
+  // console.log(token);
 
   res.status(200).json({
     status: "success",
@@ -222,7 +219,8 @@ const protect = catchAsync(async (req, res, next) => {
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
 
   // ✅ check both User and Admin
-  const currentUser = await User.findById(decoded.id) || await Admin.findById(decoded.id);
+  const currentUser =
+    (await User.findById(decoded.id)) || (await Admin.findById(decoded.id));
 
   if (!currentUser) {
     return next(
@@ -233,7 +231,10 @@ const protect = catchAsync(async (req, res, next) => {
     );
   }
 
-  if (currentUser.changedPasswordAfter && currentUser.changedPasswordAfter(decoded.iat)) {
+  if (
+    currentUser.changedPasswordAfter &&
+    currentUser.changedPasswordAfter(decoded.iat)
+  ) {
     return next(
       new AppError("User recently changed password! Please log in again.", 401)
     );

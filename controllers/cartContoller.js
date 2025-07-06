@@ -16,7 +16,7 @@ const findCartItem = (cart, productId, size) => {
   return cart.find(
     (item) =>
       getProductId(item.product) === productId &&
-      item.size.toLowerCase() === size.toLowerCase()
+      (item.size || "").toLowerCase() === (size || "").toLowerCase()
   );
 };
 
@@ -24,7 +24,6 @@ const addToCart = catchAsync(async (req, res, next) => {
   const { products } = req.body;
   const userId = req.user._id;
 
-  if (!userId) return next(new AppError("No user ID provided", 401));
   if (!Array.isArray(products) || !products.length) {
     return next(new AppError("Products array is required", 400));
   }
@@ -35,41 +34,31 @@ const addToCart = catchAsync(async (req, res, next) => {
   for (const item of products) {
     const { productId, quantity, size } = item;
 
-    if (!productId || !quantity) {
-      return next(new AppError("Product ID and quantity are required", 400));
-    }
-
     const product = await Product.findById(productId);
     if (!product)
       return next(new AppError(`Product with ID ${productId} not found`, 404));
 
     const requiresSize = product.size_range?.length > 0;
-
     let availableStock;
-    let existingItem;
 
     if (requiresSize) {
       if (!size)
         return next(new AppError("Size is required for this product", 400));
 
-      availableStock = product.stock_by_size?.get(size);
+      availableStock = product.stock_by_size?.[size];
       if (availableStock === undefined)
         return next(
           new AppError(`Size ${size} not available for this product`, 400)
         );
-
-      existingItem = user.cart.find(
-        (cartItem) =>
-          cartItem.product.toString() === productId && cartItem.size === size
-      );
     } else {
       availableStock = product.stock;
-      existingItem = user.cart.find(
-        (cartItem) =>
-          cartItem.product.toString() === productId && !cartItem.size
-      );
     }
 
+    const existingItem = findCartItem(
+      user.cart,
+      productId,
+      requiresSize ? size : ""
+    );
     const currentQuantity = existingItem ? existingItem.quantity : 0;
 
     if (availableStock < currentQuantity + quantity)
@@ -94,7 +83,6 @@ const addToCart = catchAsync(async (req, res, next) => {
   }
 
   await user.save({ validateModifiedOnly: true });
-
   const updatedUser = await User.findById(userId).populate({
     path: "cart.product",
     populate: { path: "category" },
@@ -111,31 +99,21 @@ const updateCart = catchAsync(async (req, res, next) => {
   const { updates } = req.body;
   const user = await User.findById(req.user._id);
   if (!user) return next(new AppError("User not found", 404));
-  if (!Array.isArray(updates) || !updates.length) {
-    return next(new AppError("Updates array is required", 400));
-  }
 
   for (const update of updates) {
     const { productId, currentSize, newSize, quantity } = update;
-    if (!productId) return next(new AppError("Product ID is required", 400));
-
     const product = await Product.findById(productId);
     if (!product) return next(new AppError("Product not found", 404));
 
     const requiresSize = product.size_range?.length > 0;
-    const sizeInCart = requiresSize ? currentSize : undefined;
+    const sizeInCart = requiresSize ? currentSize : "";
 
-    const cartItem = user.cart.find(
-      (item) =>
-        item.product.toString() === productId &&
-        (requiresSize ? item.size === sizeInCart : !item.size)
-    );
-
+    const cartItem = findCartItem(user.cart, productId, sizeInCart);
     if (!cartItem) return next(new AppError("Item not found in cart", 404));
 
-    const targetSize = requiresSize ? newSize || currentSize : undefined;
+    const targetSize = requiresSize ? newSize || currentSize : "";
     const availableStock = requiresSize
-      ? product.stock_by_size?.get(targetSize)
+      ? product.stock_by_size?.[targetSize]
       : product.stock;
 
     if (availableStock === undefined)
@@ -149,16 +127,13 @@ const updateCart = catchAsync(async (req, res, next) => {
       );
 
     const finalQuantity = quantity !== undefined ? quantity : cartItem.quantity;
-
-    const duplicateItem = user.cart.find(
-      (item) =>
-        item.product.toString() === productId &&
-        (requiresSize ? item.size === targetSize : !item.size) &&
-        item !== cartItem
-    );
+    const duplicateItem = findCartItem(user.cart, productId, targetSize);
 
     const totalDesired =
-      finalQuantity + (duplicateItem ? duplicateItem.quantity : 0);
+      finalQuantity +
+      (duplicateItem && duplicateItem !== cartItem
+        ? duplicateItem.quantity
+        : 0);
 
     if (totalDesired > availableStock)
       return next(
@@ -170,7 +145,13 @@ const updateCart = catchAsync(async (req, res, next) => {
         )
       );
 
-    if (requiresSize && newSize && newSize !== currentSize && duplicateItem) {
+    if (
+      requiresSize &&
+      newSize &&
+      newSize !== currentSize &&
+      duplicateItem &&
+      duplicateItem !== cartItem
+    ) {
       duplicateItem.quantity += finalQuantity;
       user.cart = user.cart.filter((item) => item !== cartItem);
     } else {
@@ -191,31 +172,23 @@ const updateCart = catchAsync(async (req, res, next) => {
 
 const removeFromCart = catchAsync(async (req, res, next) => {
   const { productId, size } = req.body;
-  const userId = req.user._id;
-
-  if (!productId) {
-    return next(new AppError("Product ID is required", 400));
-  }
-
-  const user = await User.findById(userId);
+  const user = await User.findById(req.user._id);
   if (!user) return next(new AppError("User not found", 404));
 
   const product = await Product.findById(productId);
   if (!product) return next(new AppError("Product not found", 404));
 
   const requiresSize = product.size_range?.length > 0;
-
-  if (requiresSize && !size) {
-    return next(new AppError("Size is required for this product", 400));
-  }
+  const sizeToCompare = requiresSize ? size : "";
 
   const initialLength = user.cart.length;
-
-  user.cart = user.cart.filter((item) => {
-    const sameProduct = item.product._id.toString() === productId;
-    const sameSize = requiresSize ? item.size === size : !item.size;
-    return !(sameProduct && sameSize);
-  });
+  user.cart = user.cart.filter(
+    (item) =>
+      !(
+        getProductId(item.product) === productId &&
+        (item.size || "") === (sizeToCompare || "")
+      )
+  );
 
   if (user.cart.length === initialLength) {
     return next(new AppError("Item not found in cart", 404));
@@ -232,51 +205,89 @@ const removeFromCart = catchAsync(async (req, res, next) => {
 });
 
 const checkout = catchAsync(async (req, res, next) => {
-  const user = await User.findById(req.user._id);
+  const { paymentMethod } = req.body;
+
+  if (!["cash", "visa"].includes(paymentMethod))
+    return next(new AppError("Invalid payment method", 400));
+
+  if (paymentMethod === "cash") {
+    return res.status(200).json({
+      status: "success",
+      message: "Cash payment selected, no Stripe needed",
+    });
+  }
+
+  const user = await User.findById(req.user._id).populate("cart.product");
   if (!user || !user.cart.length)
     return next(new AppError("Cart is empty", 400));
 
   let totalPrice = 0;
+  const line_items = [];
 
   for (const item of user.cart) {
-    const product = await Product.findById(item.product);
-
+    const product = item.product;
     if (!product) return next(new AppError("Product not found", 404));
 
-    let availableStock;
-
-    if (product.size_range?.length) {
-      availableStock = product.stock_by_size.get(item.size);
-    } else {
-      availableStock = product.stock;
-    }
+    const availableStock = product.size_range?.length
+      ? product.stock_by_size?.[item.size]
+      : product.stock;
 
     if (availableStock === undefined || item.quantity > availableStock) {
       return next(
         new AppError(
-          `Insufficient stock for ${product.name}, size ${item.size}`,
+          `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
           400
         )
       );
     }
 
-    totalPrice += item.quantity * product.price;
+    const itemTotal = item.quantity * product.price;
+    totalPrice += itemTotal;
+
+    line_items.push({
+      price_data: {
+        currency: "usd",
+        product_data: {
+          name: `${product.name} ${item.size ? `(Size: ${item.size})` : ""}`,
+        },
+        unit_amount: Math.round(product.price * 100),
+      },
+      quantity: item.quantity,
+    });
   }
 
-  const paymentIntent = await stripe.paymentIntents.create({
-    amount: Math.round(totalPrice * 100),
-    currency: "usd",
-    metadata: { userId: user._id.toString() },
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items,
+    mode: "payment",
+    success_url: `${process.env.CLIENT_URL}/confirm-order?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${process.env.CLIENT_URL}/decline-order`,
+    metadata: {
+      userId: user._id.toString(),
+    },
   });
 
   res.status(200).json({
     status: "success",
-    clientSecret: paymentIntent.client_secret,
-    totalPrice,
+    checkoutSessionUrl: session.url,
   });
 });
 
 const confirmOrder = catchAsync(async (req, res, next) => {
+  const { paymentMethod, shippingAddress } = req.body;
+
+  if (!["cash", "visa"].includes(paymentMethod))
+    return next(new AppError("Invalid payment method", 400));
+
+  if (
+    !shippingAddress?.address ||
+    !shippingAddress?.city ||
+    !shippingAddress?.country ||
+    !shippingAddress?.postalCode ||
+    !shippingAddress?.phone
+  )
+    return next(new AppError("Complete shipping details are required", 400));
+
   const user = await User.findById(req.user._id);
   if (!user || !user.cart.length)
     return next(new AppError("Cart is empty", 400));
@@ -288,64 +299,48 @@ const confirmOrder = catchAsync(async (req, res, next) => {
     const product = await Product.findById(item.product);
     if (!product) return next(new AppError("Product not found", 404));
 
-    let availableStock;
+    const availableStock = product.size_range?.length
+      ? product.stock_by_size?.[item.size]
+      : product.stock;
+
+    if (availableStock === undefined || item.quantity > availableStock) {
+      return next(
+        new AppError(
+          `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
+          400
+        )
+      );
+    }
 
     if (product.size_range?.length) {
-      if (!(product.stock_by_size instanceof Map)) {
-        product.stock_by_size = new Map(
-          Object.entries(product.stock_by_size || {})
-        );
-      }
-
-      availableStock = product.stock_by_size.get(item.size);
-
-      if (availableStock === undefined)
-        return next(
-          new AppError(
-            `Size ${item.size} not available for ${product.name}`,
-            400
-          )
-        );
-
-      if (item.quantity > availableStock)
-        return next(
-          new AppError(
-            `Insufficient stock for ${product.name}, size ${item.size}`,
-            400
-          )
-        );
-
-      product.stock_by_size.set(item.size, availableStock - item.quantity);
+      product.stock_by_size[item.size] = availableStock - item.quantity;
     } else {
-      availableStock = product.stock;
-
-      if (availableStock === undefined || item.quantity > availableStock)
-        return next(
-          new AppError(`Insufficient stock for ${product.name}`, 400)
-        );
-
       product.stock = availableStock - item.quantity;
     }
+
+    await product.save({ validateModifiedOnly: true });
 
     totalPrice += item.quantity * product.price;
     orderItems.push({
       product: product._id,
       quantity: item.quantity,
       size: item.size,
-      totalPrice: item.quantity * product.price,
+      totalPriceItems: item.quantity * product.price,
     });
-
-    await product.save({ validateModifiedOnly: true });
   }
 
   const order = await Order.create({
     user: user._id,
     items: orderItems,
     totalPrice,
+    totalPriceOrder: totalPrice,
+    paymentMethod,
+    shippingAddress,
+    status: "processing",
   });
 
   user.cart = [];
-  user.orders.push(order._id); // ✅ Add order to user's orders array
+  user.orders.push(order._id);
   await user.save({ validateModifiedOnly: true });
 
   res.status(201).json({
