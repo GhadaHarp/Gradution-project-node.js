@@ -206,6 +206,7 @@ const removeFromCart = catchAsync(async (req, res, next) => {
 
 const checkout = catchAsync(async (req, res, next) => {
   const { paymentMethod } = req.body;
+
   if (!["cash", "visa"].includes(paymentMethod))
     return next(new AppError("Invalid payment method", 400));
 
@@ -216,13 +217,15 @@ const checkout = catchAsync(async (req, res, next) => {
     });
   }
 
-  const user = await User.findById(req.user._id);
+  const user = await User.findById(req.user._id).populate("cart.product");
   if (!user || !user.cart.length)
     return next(new AppError("Cart is empty", 400));
 
   let totalPrice = 0;
+  const line_items = [];
+
   for (const item of user.cart) {
-    const product = await Product.findById(item.product);
+    const product = item.product;
     if (!product) return next(new AppError("Product not found", 404));
 
     const availableStock = product.size_range?.length
@@ -237,19 +240,36 @@ const checkout = catchAsync(async (req, res, next) => {
         )
       );
     }
-    totalPrice += item.quantity * product.price;
+
+    const itemTotal = item.quantity * product.price;
+    totalPrice += itemTotal;
+
+    line_items.push({
+      price_data: {
+        currency: "usd",
+        product_data: {
+          name: `${product.name} ${item.size ? `(Size: ${item.size})` : ""}`,
+        },
+        unit_amount: Math.round(product.price * 100),
+      },
+      quantity: item.quantity,
+    });
   }
 
-  const paymentIntent = await stripe.paymentIntents.create({
-    amount: Math.round(totalPrice * 100),
-    currency: "usd",
-    metadata: { userId: user._id.toString() },
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items,
+    mode: "payment",
+    success_url: `${process.env.CLIENT_URL}/confirm-order?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${process.env.CLIENT_URL}/decline-order`,
+    metadata: {
+      userId: user._id.toString(),
+    },
   });
 
   res.status(200).json({
     status: "success",
-    clientSecret: paymentIntent.client_secret,
-    totalPrice,
+    checkoutSessionUrl: session.url,
   });
 });
 
