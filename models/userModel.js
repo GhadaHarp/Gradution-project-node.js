@@ -56,11 +56,18 @@ const userSchema = new mongoose.Schema(
         },
       ],
     },
+    // orders: [
+    //   {
+    //     orderId: { type: mongoose.Schema.Types.ObjectId, ref: "Order" },
+    //   },
+    // ],
     orders: [
-      {
-        orderId: { type: mongoose.Schema.Types.ObjectId, ref: "Order" },
-      },
-    ],
+  {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Order",
+  },
+],
+
     favorites: [
       {
         type: mongoose.Schema.Types.ObjectId,

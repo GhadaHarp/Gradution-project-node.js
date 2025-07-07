@@ -23,12 +23,12 @@ router.route("/resetPassword/:token").patch(resetPassword);
 
 router
   .route("/")
-  .get(protect, getAllUsers)
+  .get( getAllUsers)
   .post(protect, restrictTo("admin"), createUser);
 router
   .route("/:id")
-  .get(protect, getUser)
-  .delete(protect, restrictTo("admin"), deleteUser)
+  .get( getUser)
+  .delete( restrictTo("admin"), deleteUser)
   .patch(protect, restrictTo("admin"), updateUser);
 
 module.exports = router;

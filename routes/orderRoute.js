@@ -11,13 +11,13 @@ const {
 } = require("../Controllers/orderController");
 router.use(protect);
 
-router.get("/", restrictTo(["admin"]), getAllOrders),
+router.get("/", getAllOrders),
   router.post("/", createOrder),
   router.patch("/:id", updateOrder);
 router.get("/my-orders", getMyOrders);
 
 router.get("/:id", getOrderBYId);
 
-router.delete("/:id", restrictTo(["admin"]), deleteOrder);
+router.delete("/:id", deleteOrder);
 
 module.exports = router;
