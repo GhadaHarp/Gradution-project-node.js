@@ -180,7 +180,10 @@ const loginAdmin = catchAsync(async (req, res, next) => {
 
 //   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
 
-//   const currentUser = await User.findById(decoded.id);
+//   // ✅ check both User and Admin
+//   const currentUser =
+//     (await User.findById(decoded.id)) || (await Admin.findById(decoded.id));
+
 //   if (!currentUser) {
 //     return next(
 //       new AppError(
@@ -190,7 +193,10 @@ const loginAdmin = catchAsync(async (req, res, next) => {
 //     );
 //   }
 
-//   if (currentUser.changedPasswordAfter(decoded.iat)) {
+//   if (
+//     currentUser.changedPasswordAfter &&
+//     currentUser.changedPasswordAfter(decoded.iat)
+//   ) {
 //     return next(
 //       new AppError("User recently changed password! Please log in again.", 401)
 //     );
@@ -201,6 +207,17 @@ const loginAdmin = catchAsync(async (req, res, next) => {
 
 //   next();
 // });
+
+// const restrictTo = (...roles) => {
+//   return catchAsync(async (req, res, next) => {
+//     if (!roles.includes(req.user.role)) {
+//       return next(
+//         new AppError("You do not have permission to perform this action", 403)
+//       );
+//     }
+//     next();
+//   });
+// };
 const protect = catchAsync(async (req, res, next) => {
   let token;
   if (
@@ -218,16 +235,17 @@ const protect = catchAsync(async (req, res, next) => {
 
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
 
-  // ✅ check both User and Admin
-  const currentUser =
-    (await User.findById(decoded.id)) || (await Admin.findById(decoded.id));
+  let currentUser = await User.findById(decoded.id);
+  if (currentUser) {
+    req.userType = "user";
+  } else {
+    currentUser = await Admin.findById(decoded.id);
+    if (currentUser) req.userType = "admin";
+  }
 
   if (!currentUser) {
     return next(
-      new AppError(
-        "The user belonging to this token does no longer exist.",
-        401
-      )
+      new AppError("The user belonging to this token no longer exists.", 401)
     );
   }
 
@@ -245,17 +263,16 @@ const protect = catchAsync(async (req, res, next) => {
 
   next();
 });
+const restrictToAdminOnly = catchAsync(async (req, res, next) => {
+  if (req.userType !== "admin") {
+    return next(
+      new AppError("You do not have permission to perform this action", 403)
+    );
+  }
 
-const restrictTo = (...roles) => {
-  return catchAsync(async (req, res, next) => {
-    if (!roles.includes(req.user.role)) {
-      return next(
-        new AppError("You do not have permission to perform this action", 403)
-      );
-    }
-    next();
-  });
-};
+  next();
+});
+
 const forgotPassword = async (req, res, next) => {
   const user = await User.findOne({ email: req.body.email });
 
@@ -325,7 +342,7 @@ module.exports = {
   loginUser,
   loginAdmin,
   protect,
-  restrictTo,
+  restrictToAdminOnly,
   forgotPassword,
   resetPassword,
 };

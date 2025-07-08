@@ -8,17 +8,21 @@ const {
   updateAdmin,
   deleteAdmin,
 } = require("../Controllers/adminControllers");
-const{loginAdmin}=require("../controllers/authController")
+const {
+  loginAdmin,
+  protect,
+  restrictToAdminOnly,
+} = require("../controllers/authController");
+router.use(protect, restrictToAdminOnly);
 
+router.post("/", createAdmin);
 
-router.post("/",  createAdmin);
-
-router.get("/",  getAllAdmins);
-router.post('/login', loginAdmin);
+router.get("/", getAllAdmins);
+router.post("/login", loginAdmin);
 
 router.get("/:id", getAdmin);
-router.patch("/:id",  updateAdmin);
-router.delete("/:id",  deleteAdmin);
+router.patch("/:id", updateAdmin);
+router.delete("/:id", deleteAdmin);
 // router.post("/" ,signup)
 // router.post("/")
 module.exports = router;
