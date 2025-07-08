@@ -1,5 +1,8 @@
 const express = require("express");
-const { protect, restrictTo } = require("../controllers/authController");
+const {
+  protect,
+  restrictToAdminOnly,
+} = require("../controllers/authController");
 const router = express.Router();
 const {
   getAllOrders,
@@ -11,13 +14,13 @@ const {
 } = require("../Controllers/orderController");
 router.use(protect);
 
-router.get("/", getAllOrders),
+router.get("/", protect, restrictToAdminOnly, getAllOrders),
   router.post("/", createOrder),
-  router.patch("/:id", updateOrder);
-router.get("/my-orders", getMyOrders);
+  router.patch("/:id", protect, updateOrder);
+router.get("/my-orders", protect, getMyOrders);
 
-router.get("/:id", getOrderBYId);
+router.get("/:id", protect, getOrderBYId);
 
-router.delete("/:id", deleteOrder);
+router.delete("/:id", protect, deleteOrder);
 
 module.exports = router;

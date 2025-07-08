@@ -6,17 +6,20 @@ const {
   updateProduct,
   deleteProduct,
 } = require("../controllers/productController");
-const { protect, restrictTo } = require("../controllers/authController");
+const {
+  protect,
+  restrictToAdminOnly,
+} = require("../controllers/authController");
 const reviewRouter = require("./reviewRoute");
 const router = express.Router();
 router.use("/:productId/reviews", reviewRouter);
 router
   .route("/")
   .get(getAllProducts)
-  .post(protect, createProduct);
+  .post(protect, restrictToAdminOnly, createProduct);
 router
   .route("/:id")
   .get(getProduct)
-  .patch(protect,  updateProduct)
-  .delete(protect,  deleteProduct);
+  .patch(protect, restrictToAdminOnly, updateProduct)
+  .delete(protect, restrictToAdminOnly, deleteProduct);
 module.exports = router;
