@@ -168,18 +168,20 @@ const updateOrder = catchAsync(async (req, res, next) => {
   if (!validStatuses.includes(status))
     return next(new AppError("Invalid status", 400));
 
-  const order = await Order.findByIdAndUpdate(
+  const updatedOrder = await Order.findByIdAndUpdate(
     req.params.id,
     { status },
     { new: true, runValidators: true }
   );
 
-  if (!order) return next(new AppError("Order not found", 404));
+  if (!updatedOrder) return next(new AppError("Order not found", 404));
 
   res.status(200).json({
     status: "success",
     message: "Order updated successfully",
-    order,
+     data: {
+      order: updatedOrder,
+    },
   });
 });
 
