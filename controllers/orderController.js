@@ -1,28 +1,18 @@
+const mongoose = require("mongoose");
 const Order = require("../models/orderModel");
 const Product = require("../models/productModel");
 const User = require("../models/userModel");
 const AppError = require("../utilities/appError");
 const catchAsync = require("../utilities/catchAsync");
 
+// Delete Order
 const deleteOrder = catchAsync(async (req, res, next) => {
   const orderId = req.params.id;
-
+  console.log(orderId);
   const order = await Order.findByIdAndDelete(orderId);
+  if (!order) return next(new AppError("Order not found", 404));
 
-  if (!order) {
-    return next(new AppError("Order not found", 404));
-  }
-
-  const userUpdateResult = await User.updateMany(
-    { "orders._id": orderId },
-    { $pull: { orders: { _id: orderId } } }
-  );
-
-  console.log("User update result:", userUpdateResult);
-
-  if (userUpdateResult.modifiedCount === 0) {
-    return next(new AppError("Order not found in user's orders array", 404));
-  }
+  await User.updateMany({ orders: orderId }, { $pull: { orders: orderId } });
 
   res.status(200).json({
     status: "success",
@@ -30,184 +20,168 @@ const deleteOrder = catchAsync(async (req, res, next) => {
   });
 });
 
-
-
-
-
-
-
-
-
-
+// Get All Orders with Stats
 const getAllOrders = catchAsync(async (req, res) => {
-  /// filter with status
   const { status, page = 1, limit = 8 } = req.query;
-  const filter = {};
+  const filter = status ? { status } : {};
 
-  if (status) {
-    filter.status = status;
-  }
-
-  const data = await Order
-    .find(filter)
-    // .skip((page - 1) * limit)
-    // .limit(parseInt(limit))
+  const orders = await Order.find(filter)
     .populate("user")
     .populate("items.product");
-  //orders.length
-  const NumberOfOrders = await Order.countDocuments(filter);
-  //total revenue --- total orders price
-  const totalRevenue = data.reduce((acc, item) => {
-    // sum = +item.totalPriceOrder;
-    return acc + +item.totalPriceOrder || 0;
-  }, 0);
 
-  //average order value
-  avg_order_value = totalRevenue / NumberOfOrders;
+  const numberOfOrders = await Order.countDocuments(filter);
+  const totalRevenue = orders.reduce(
+    (sum, order) => sum + (order.totalPriceOrder || 0),
+    0
+  );
+  const avgOrderValue = numberOfOrders ? totalRevenue / numberOfOrders : 0;
 
-  // NEW Customers / Products /Orders
   const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
 
-  const newCustomers = await User.countDocuments({
-    createdAt: { $gte: weekAgo, $lte: new Date() },
-    isDeleted: false,
-  });
-
-  const newProduct = await Product.countDocuments({
-    createdAt: { $gte: weekAgo, $lte: new Date() },
-    isDeleted: false,
-  });
-
-  const newOrder = await Order.countDocuments({
-    createdAt: { $gte: weekAgo, $lte: new Date() },
-    status: { $ne: "Cancelled" },
-    // status: { enum: ["pending", "shipping", "Delivered"] },
-  });
-
-  ////////
-  const userCount = await User.countDocuments();
-  const userActive = await User.countDocuments({ status: "active" });
-  const userInActive = await User.countDocuments({ status: "inactive" });
-  const userVip = await User.countDocuments({ status: "vip" });
-  /////////
+  const [
+    newCustomers,
+    newProduct,
+    newOrder,
+    userCount,
+    userActive,
+    userInactive,
+    userVip,
+  ] = await Promise.all([
+    User.countDocuments({ createdAt: { $gte: weekAgo }, isDeleted: false }),
+    Product.countDocuments({ createdAt: { $gte: weekAgo }, isDeleted: false }),
+    Order.countDocuments({
+      createdAt: { $gte: weekAgo },
+      status: { $ne: "Cancelled" },
+    }),
+    User.countDocuments(),
+    User.countDocuments({ status: "active" }),
+    User.countDocuments({ status: "inactive" }),
+    User.countDocuments({ status: "vip" }),
+  ]);
 
   res.status(200).json({
     status: "success",
-    results: data.length,
-    NumberOfOrders: NumberOfOrders,
-    totalRevenue: totalRevenue,
-    averageOrderValue: avg_order_value,
-    newCustomers: newCustomers,
-    newProduct: newProduct,
-    newOrder: newOrder,
-    userCount: userCount,
-    userActive: userActive,
-    userInActive: userInActive,
-    userVip: userVip,
-    // page,
-    // limit,
-    data,
+    results: orders.length,
+    numberOfOrders,
+    totalRevenue,
+    avgOrderValue,
+    newCustomers,
+    newProduct,
+    newOrder,
+    userCount,
+    userActive,
+    userInactive,
+    userVip,
+    orders,
+  });
+});
+const getMyOrders = catchAsync(async (req, res) => {
+  const userId = req.user.id;
+
+  const orders = await Order.find({ user: userId })
+    .populate("items.product")
+    .sort({ createdAt: -1 });
+
+  res.status(200).json({
+    status: "success",
+    results: orders.length,
+    orders,
   });
 });
 
-const createOrder = catchAsync(async (req, res) => {
+const createOrder = catchAsync(async (req, res, next) => {
+  const { items, paymentMethod, shippingAddress } = req.body;
+
+  if (!paymentMethod || !["cash", "visa"].includes(paymentMethod))
+    return next(new AppError("Invalid payment method", 400));
+  if (
+    !shippingAddress ||
+    !shippingAddress.address ||
+    !shippingAddress.postalCode
+  )
+    return next(new AppError("Address and postal code are required", 400));
+
   const itemsWithPrices = await Promise.all(
-    req.body.items.map(async (item) => {
-      console.log(item.product);
-      const productId = new mongoose.Types.ObjectId(item.product);
-      const product = await Product.findById(productId);
-      console.log("Product found:", product);
-      // <<<<<<< sama
+    items.map(async (item) => {
+      const product = await Product.findById(item.product);
+      if (!product) throw new AppError("Product not found", 404);
+
       const itemTotal = product.price * item.quantity;
-      console.log(itemTotal);
-      return {
-        ...item,
-        totalPriceItems: itemTotal,
-      };
+      return { ...item, totalPriceItems: itemTotal };
     })
   );
+
   const orderTotalPrice = itemsWithPrices.reduce(
     (sum, item) => sum + item.totalPriceItems,
     0
   );
-  // =======
-  //       // const itemTotal = product.price * item.quantity;
-  //       item.totalPriceItems = item.quantity * item.product.price;
-
-  //          console.log(itemTotal);
-  //       return {
-  //         ...item,
-  //         totalPriceItems: item.totalPriceItems,
-  //       };
-  //     })
-  //   );
-  //   const orderTotalPrice = itemsWithPrices.reduce((sum, item) => sum + item.totalPriceItems, 0);
-  // >>>>>>> develop
-  console.log(orderTotalPrice);
 
   const order = await Order.create({
-    ...req.body,
+    user: req.user._id,
     items: itemsWithPrices,
+    totalPrice: orderTotalPrice,
     totalPriceOrder: orderTotalPrice,
+    paymentMethod,
+    shippingAddress,
+    status: "processing",
   });
-  await updateUserStatus(order.user);
-  // console.log(order.user);
 
-  res.status(200).json({
+  await User.findByIdAndUpdate(req.user._id, {
+    $push: { orders: order._id },
+  });
+
+  res.status(201).json({
     status: "success",
-    results: order,
+    order,
   });
 });
 
-const getOrderBYId = catchAsync(async (req, res) => {
-  const order = await Order
-    .findById(req.params.id)
+// Get Order by ID
+const getOrderBYId = catchAsync(async (req, res, next) => {
+  const order = await Order.findById(req.params.id)
     .populate("user")
+
     .populate({
       path: "items.product",
-      select: "name price brand images",
+      select: "name price brand imageUrl",
     });
   if (!order) {
     return res.status(404).json({ message: "Order not found" });
   }
+// =======
+//     .populate("items.product");
+
+//   if (!order) return next(new AppError("Order not found", 404));
+// >>>>>>> develop
 
   res.status(200).json({
     status: "success",
-    result: order,
+    order,
   });
 });
 
-const updateOrder = catchAsync(async (req, res) => {
-  // <<<<<<< sama
-  //   const order = await Order.findByIdAndUpdate(req.params.id, req.body, {
-  //     new: true,
-  //     runValidators: true,
-  //   });
-  // =======
+// Update Order Status
+const updateOrder = catchAsync(async (req, res, next) => {
   const { status } = req.body;
+  const validStatuses = ["processing", "shipped", "delivered"];
 
-  if (!status) {
-    return res.status(404).json({ message: "Status is required" });
-  }
+  if (!validStatuses.includes(status))
+    return next(new AppError("Invalid status", 400));
 
   const order = await Order.findByIdAndUpdate(
     req.params.id,
-    { status }, // 👈 تحديث status فقط
+    { status },
     { new: true, runValidators: true }
   );
-  // >>>>>>> develop
 
-  if (!order) {
-    return res.status(400).json({ message: "Nothing to update" });
-  }
+  if (!order) return next(new AppError("Order not found", 404));
 
   res.status(200).json({
     status: "success",
-    message: "Updated successfully",
-    results: order,
+    message: "Order updated successfully",
+    order,
   });
 });
-
 
 module.exports = {
   deleteOrder,
@@ -215,4 +189,5 @@ module.exports = {
   createOrder,
   updateOrder,
   getOrderBYId,
+  getMyOrders,
 };

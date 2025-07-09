@@ -117,12 +117,13 @@ const productSchema = new mongoose.Schema(
       ref: "Category",
       required: [true, "A product must belong to a category"],
     },
+   
     subCategory: {
-      type: String,
-      trim: true,
-    },
+    type: String,
+    enum: ['Shirts', 'Pants'], 
+},
     imageUrl: {
-      type: [String],
+      type: String,
       required: [true, "A product must have an image"],
     },
     description: {
@@ -140,6 +141,10 @@ const productSchema = new mongoose.Schema(
     stock: {
       type: Number,
       default: 5,
+    },
+    stock_by_size: {
+      type: Object,
+      default: {},
     },
     rating: {
       type: Number,
@@ -197,11 +202,42 @@ productSchema.pre(/^find/, function (next) {
   next();
 });
 
+// Calculate total stock before saving
+productSchema.pre("save", function (next) {
+  if (this.size_range?.length && this.stock_by_size) {
+    let totalStock = 0;
+    for (const key in this.stock_by_size) {
+      if (Object.hasOwnProperty.call(this.stock_by_size, key)) {
+        totalStock += this.stock_by_size[key];
+      }
+    }
+    this.stock = totalStock;
+  }
+  next();
+});
+
+productSchema.methods.toJSON = function () {
+  const product = this.toObject();
+
+  if (product.size_range?.length && product.stock_by_size) {
+    let totalStock = 0;
+    for (const key in product.stock_by_size) {
+      if (Object.hasOwnProperty.call(product.stock_by_size, key)) {
+        totalStock += product.stock_by_size[key];
+      }
+    }
+    product.stock = totalStock;
+  }
+
+  return product;
+};
+
 productSchema.virtual("reviews", {
   ref: "Review",
   foreignField: "product",
   localField: "_id",
 });
+
 const Product = mongoose.model("Product", productSchema);
 
 module.exports = Product;

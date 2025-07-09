@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: {
-        values: ["customer", "admin" , "manger"],
+        values: ["customer", "admin", "manger"],
         message: "Role is either customer or admin",
       },
       default: "customer",
@@ -56,18 +56,25 @@ const userSchema = new mongoose.Schema(
         },
       ],
     },
+    // orders: [
+    //   {
+    //     orderId: { type: mongoose.Schema.Types.ObjectId, ref: "Order" },
+    //   },
+    // ],
     orders: [
-      {
-        orderId: { type: mongoose.Schema.Types.ObjectId, ref: "Order" },
-      },
-    ],
+  {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Order",
+  },
+],
+
     favorites: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Product",
       },
     ],
-     status: {
+    status: {
       type: String,
       enum: ["active", "inactive", "vip"],
       default: "inactive",

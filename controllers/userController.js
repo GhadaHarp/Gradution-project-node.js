@@ -62,8 +62,7 @@ const getAllUsers = catchAsync(async (req, res, next) => {
 
   const newOrder = await Order.countDocuments({
     createdAt: { $gte: weekAgo, $lte: new Date() },
-    status: { $ne: "Cancelled" },
-    // status: { enum: ["pending", "shipping", "Delivered"] },
+    status: { $ne: "cancelled" },
   });
   res.status(200).json({
     status: "success",
@@ -86,13 +85,13 @@ const getUser = catchAsync(async (req, res, next) => {
     populate: {
       path: "items.product",
       model: "Product",
-      select: "name price brand  images",
+      select: "name price brand imageUrl ",
     },
   });
   if (!user) {
     return next(new AppError("No user Exists with that id", 400));
   }
- res.status(200).json({
+  res.status(200).json({
     status: "success",
     data: {
       user: user,
@@ -100,89 +99,50 @@ const getUser = catchAsync(async (req, res, next) => {
     },
   });
 });
-// const updateUser = catchAsync(async (req, res, next) => {
-//   const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body, {
-//     new: true,
-//     runValidators: true,
-//   });
-//   if (!updatedUser) {
-//     return next(new AppError("No user found with that id", 404));
-//   }
-//   res.status(200).json({
-//     status: "success",
-//     data: {
-//       updatedUser,
-//     },
-//   });
-// });
+
 const updateUser = catchAsync(async (req, res, next) => {
-  const userBeforeUpdate = await User
-    .findById(req.params.id)
-    .select("+password");
-  if (!userBeforeUpdate)
-    return res.status(404).json({ message: "user not found" });
-  const user = await User.findByIdAndUpdate(req.params.id, req.body, {
+  if (req.user._id.toString() !== req.params.id) {
+    return res
+      .status(403)
+      .json({ message: "You are not authorized to perform this action." });
+  }
+
+  const allowedFields = ["firstName", "lastName", "email"];
+  const updateData = {};
+  for (const field of allowedFields) {
+    if (req.body[field] !== undefined) {
+      updateData[field] = req.body[field];
+    }
+  }
+
+  if (Object.keys(updateData).length === 0) {
+    return res.status(400).json({ message: "No valid fields to update." });
+  }
+
+  const user = await User.findByIdAndUpdate(req.user._id, updateData, {
     new: true,
     runValidators: true,
   });
-  if (!user) return res.status(400).json({ message: "nothing to update" });
-
-  if (req.body.role == "admin" && userBeforeUpdate.role !== "admin") {
-    const existingAdmin = await adminModel.findOne({ email: req.body.email });
-    if (existingAdmin) {
-      return res.status(400).json({
-        status: "fail",
-        message: "An admin with this email already exists.",
-      });
-    }
-    const newAdmin = await adminModel.create({
-      firstName: req.body.firstName,
-      lastName: req.body.lastName,
-      email: req.body.email,
-      password: userBeforeUpdate.password,
-      // ...user,
-      role: "admin",
-    });
-
-    await User.findByIdAndDelete(req.params.id);
-
-    return res.status(200).json({
-      status: "success",
-      date: { newAdmin },
-      message: "admin added successfully",
-    });
-  }
 
   res.status(200).json({
     status: "success",
+    message: "User updated successfully",
     data: { user },
-    message: "user updated successfully",
   });
 });
-// const deleteUser = catchAsync(async (req, res, next) => {
-//   const user = await User.findByIdAndDelete(req.params.id);
-//   if (!user) {
-//     return next(new AppError("No user Exists with that id", 404));
-//   }
-//   res.status(200).json({
-//     status: "success",
-//     data: null,
-//   });
-// });
+
 const deleteUser = catchAsync(async (req, res, next) => {
-  // const user = await User.findByIdAndDelete(req.params.id);
   const user = await User.findByIdAndUpdate(req.params.id, {
     isDeleted: true,
     // runValidators:true
     new: true,
   });
-  console.log(user);
 
   if (!user) return res.status(400).json({ message: "user is not found" });
   res.status(200).json({
     status: "Success",
-    message: "product soft deleted succesfully",
-    // data: null,
+    message: "User deleted succesfully",
+    data: null,
   });
 });
 

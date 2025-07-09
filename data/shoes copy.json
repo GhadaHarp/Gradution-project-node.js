@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "name": "ADIDAS IF1402 Deportivo",
+    "brand": "ADIDAS",
+    "price": 1200,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/31/7457221/1.jpg?9371",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Designed for the modern athlete, the ADIDAS IF1402 Deportivo football boots offer superior comfort and control. Featuring a soft synthetic upper for enhanced ball touch and a perforated tongue for breathability, these boots ensure you stay light on your feet throughout the game. An anatomically shaped heel provides a secure fit, helping you move swiftly and confidently on any surface.",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-01-10T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ADIDAS IF1400 Deportivo",
+    "brand": "ADIDAS",
+    "price": 1200,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/60/7457221/1.jpg?9106",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Engineered for precision and speed, the ADIDAS IF1400 Deportivo football boots provide exceptional ball control and stability. The lightweight synthetic upper enhances comfort, while the textured forefoot optimizes grip for powerful strikes. A snug fit ensures agility, helping you dominate the game with confidence.",
+    "color": "White",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-02-05T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nike Air Max Sc Shoes",
+    "brand": "Nike",
+    "price": 3600,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/52/8021031/6.jpg?1688",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Combining style and performance, the Nike Air Max Sc Shoes feature a breathable mesh upper and a cushioned Air Max unit for ultimate comfort. The durable rubber outsole provides excellent traction, making them ideal for everyday wear and athletic activities.",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-03-15T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "ADIDAS IH5289 Zapatillas Break Start ",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/87/7713911/1.jpg?0856",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "The ADIDAS IH5289 Zapatillas Break Start shoes offer a stylish design with durable materials for all-day comfort. Featuring a cushioned midsole and a flexible outsole, these sneakers provide support and stability for both casual and athletic use.",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "ADIDAS Lsj08 Tennis Footwear Shoes",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/27/334725/1.jpg?5874",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Step up your game with the ADIDAS LSJ08 Tennis Footwear Shoes, designed for players who demand agility, support, and durability on the court. Featuring a lightweight yet sturdy synthetic upper, these shoes provide a snug fit for optimal movement. The cushioned midsole enhances comfort, while the non-marking rubber outsole ensures superior grip and traction on various surfaces. Whether you're sprinting to the net or making quick lateral moves, the LSJ08 keeps you in control every step of the way.",
+    "color": "White",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ADIDAS IH5289 Zapatillas Break Start ",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/87/7713911/1.jpg?0856",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "The ADIDAS IH5289 Zapatillas Break Start shoes offer a stylish design with durable materials for all-day comfort. Featuring a cushioned midsole and a flexible outsole, these sneakers provide support and stability for both casual and athletic use.",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ADIDAS IG8691 Copa Pure 2 Club Turf Boots",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/38/7713911/1.jpg?0731",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "The ADIDAS IH5289 Zapatillas Break Start shoes offer a stylish design with durable materials for all-day comfort. Featuring a cushioned midsole and a flexible outsole, these sneakers provide support and stability for both casual and athletic use.",
+    "color": "White",
+    "material": "Leather",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "ADIDAS Football COPA PURE TURF BOOTS GY9049",
+    "brand": "ADIDAS",
+    "price": 2249,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/89/404999/2.jpg?1846",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "COMFORTABLE BOOTS FOR IMMACULATE FOOTBALL, MADE IN PART WITH RECYCLED MATERIALS.Remember why it's called the beautiful game. adidas Copa Pure filters out the noise with undiluted comfort and a flawless touch. Made from soft synthetic leather, the upper on these football boots ensures a comfortable feel and distraction-free play. Underneath, a lug rubber outsole keeps things effortless on artificial turf.Made with a series of recycled materials, this upper features at least  recycled content. This product represents just one of our solutions to help end plastic waste.",
+    "color": "Black/White/Pink",
+    "material": "Textile",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 84,
+    "release_date": "2024-05-01T23:59:59.000Z",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "PUMA Mens Softride",
+    "brand": "PUMA",
+    "price": 6249,
+    "imageUrl": "https://m.media-amazon.com/images/I/61lW062M36L._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Now introducing the Softride Premier. Built with our world renowned Softride comfort foam and our unique PUMA design DNA, the Softride Premier is the perfect mix of advanced cushioning and style. Featuring bold branding, interest lacing, and elevated materials, The Premier is sure to turn heads.",
+    "color": "White/Blue",
+    "material": "Soft foam",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 71,
+    "release_date": "2024-02-03T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Starter Street Basic-2 Lifestyle Sneaker",
+    "brand": "Starter",
+    "price": 1113,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/38/7713911/1.jpg?0731",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Classic look yet stylish, the athleisure look will never go out of style The Starter Street Basic-2 will match your everyday styles, whether sports outfit or casual outfit, this is your go to shoes. The High-Quality Microfiber Leather is soft, also very hard to tear, making it a durable shoe that will last. The padded lining, high density EVA insole, and the heel reinforcement, will also insure comfortability. Available in big special sizes Comfortable and Durable TPR two colors outsole [washing instructions] We recommend using a brush and soap Make sure to wash it in cold water, in case washing machine is used.",
+    "color": "White",
+    "material": "Microfiber Leather",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 60,
+    "release_date": "2024-08-01T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ADIDAS LTC84 Football/Soccer Predator Accuracy.4 Indoor Sala Boots- Black",
+    "brand": "ADIDAS",
+    "price": 1888,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/09/176625/1.jpg?2011",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Control + accuracy = confidence. When the goal's in your sights, target perfection with adidas Predator Accuracy. Created to deliver a comfortable fit, these football boots have a soft synthetic upper with a subtle, textured finish and a mesh quarter that keeps you cool during intense futsal games. It sits on a non-marking rubber outsole that will put you in charge on indoor courts. Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.",
+    "color": "Black",
+    "material": "Textile",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 12,
+    "release_date": "2024-01-03T23:59:59.000Z",
+    "rating": 3.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Nike Mercurial Vapor 15 Club Soccer Shoes Dj5958-040",
+    "brand": "Nike",
+    "price": 2975,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/62/221184/1.jpg?7640",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Learn all the skills and drills, and use them in your next game with the Nike Jr. Mercurial Vapor 15 Club cleats. Made for all different surfaces from artificial to real grass fields, they have the traction you need to move and run up the field. The durable design is meant to hold up through every practice and every minute on game day.",
+    "color": "Black/Blue",
+    "material": "Synthetic Leather",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 22,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "PUMA Hypnotic Sneaker",
+    "brand": "PUMA",
+    "price": 5949,
+    "imageUrl": "https://m.media-amazon.com/images/I/71HTt7CH4fL._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Puma Hypnotic LS Sneakers for men is a trendy and comfortable shoes designed for consumers who want both style and comfort. This shoe is made with softride foam technology that ensures maximum comfort, even when worn for extended periods. The styles suede look and feel give it a modern, sleek appearance, making it the perfect choice for those looking to keep up with the latest fashion trends. Whether you re running errands or heading out with friends, this shoe is the perfect accessory to complete your trendy look. The upper of the shoes is made with at least 30 percent recycled materials. Synthetic suede and mesh upper. PUMA Cat logo on tongue and heel. Softride midsole and rubber outsole. Lace up closure. It has textile sockliner and lining. Comes in 43 EU size and club navy/white/team regal red colour.",
+    "color": "Red",
+    "material": "Mesh",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 17,
+    "release_date": "2024-07-01T23:59:59.000Z",
+    "rating": 4.1,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Share this product Nike Phantom GX Club FG/MG 'Bright Crimson Black' DD9483-600",
+    "brand": "Nike",
+    "price": 3675,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/62/022585/2.jpg?2944",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Whether you’re starting out or just playing for fun, the Club boot gets you on the pitch without compromising on quality. With synthetic leather and asymmetric lacing, they help provide precision touch to help you bury goals in the back of the net or set up a teammate with a pinpoint pass that swings the game in your favour.",
+    "color": "Red",
+    "material": "Leather",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 32,
+    "release_date": "2024-09-08T23:59:59.000Z",
+    "rating": 4.4,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "PUMA womens R78 Sneaker",
+    "brand": "PUMA",
+    "price": 5649,
+    "imageUrl": "https://m.media-amazon.com/images/I/71CRz0y3YPL._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Add a pop of interest to any outfit with our R78 Metallic Pop Trainers. This edgy style melds textiles like synthetic suedes, metallic touches, ripstops and more for a look that is a mix of hard, soft and sweet for a memorable look",
+    "color": "White",
+    "material": "Synthetic Resin",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 50,
+    "release_date": "2024-03-01T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "ADIDAS MBX71 X Crazyfast.4 Fxg Football/Soccer Shoes ",
+    "brand": "ADIDAS",
+    "price": 2200,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/46/036025/1.jpg?9445",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "These adidas X football boots are designed to keep you comfortable on the move. They have a soft and durable coated textile upper for improved ball feel when you're dribbling at high speeds. The versatile outsole digs into multiple surfaces for game-changing traction. Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.",
+    "color": "Bright Royal Blue",
+    "material": "Textile",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 42,
+    "release_date": "2024-06-02T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "PUMA Trinity Sneaker",
+    "brand": "PUMA",
+    "price": 6699,
+    "imageUrl": "https://m.media-amazon.com/images/I/61nT9otppzL._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "The Trinity is all about our Futro aesthetic, taking heritage inspiration and reinterpreting it with a modern twist. This edition features a mesh base with cool overlay details and a sporty silhouette, for sneakers that pack a punch. Best of all, the SoftFoam+ sockliner keeps you feeling comfortable all day long.",
+    "color": "Beige",
+    "material": "Mesh",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 30,
+    "release_date": "2024-09-04T23:59:59.000Z",
+    "rating": 4.3,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "PUMA unisex-adult PWRFrame Sneakers",
+    "brand": "PUMA",
+    "price": 6699,
+    "imageUrl": "https://m.media-amazon.com/images/I/61Fx98FBYyL._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Versatile training shoes for an all-round performance.",
+    "color": "Black",
+    "material": "Textile",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 23,
+    "release_date": "2024-01-03T23:59:59.000Z",
+    "rating": 4.3,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "PUMA womens Zora Sneaker",
+    "brand": "PUMA",
+    "price": 4899,
+    "imageUrl": "https://m.media-amazon.com/images/I/61iWNHkgqEL._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Puma Zora Shoes are stylish stripped-back sneakers, perfect for day-to-day wear. Featuring a fabulous softfoam plus sockliner for maximum cushioning and a rubber outsole with incredible grip, they are a practical pair for getting it done. The sleek design features an air mesh upper and a tpu puma formstrip that s designed to look fresh and fabulous. These shoes can be pair with casual wear like denims, shorts and joggers. It comes in 36 eu size with black/grape mist color.",
+    "color": "White",
+    "material": "Rubber",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 5,
+    "release_date": "2024-07-04T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "ADIDAS MAR07 Football/Soccer Predator Accuracy",
+    "brand": "ADIDAS",
+    "price": 2999,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/376625/1.jpg?3991",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "description": "Introducing the ADIDAS MAR07 Predator Accuracy Football/Soccer Cleats, engineered for players seeking unparalleled precision and control on the field. These cleats feature a soft HybridTouch upper, providing a comfortable fit and enhanced ball feel. The mid-cut knit textile collar ensures a secure lockdown, while the molded sockliner offers distraction-free play. High Definition Grip rubber elements on the forefoot deliver superior ball control, allowing for accurate strikes. The firm ground outsole is designed to dominate on natural grass surfaces, offering optimal traction and stability. Crafted with at least 50% recycled materials, the ADIDAS MAR07 Predator Accuracy cleats not only elevate your game but also contribute to reducing plastic waste. ",
+    "color": "White",
+    "material": "Textile",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "stock": 6,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  }
+]

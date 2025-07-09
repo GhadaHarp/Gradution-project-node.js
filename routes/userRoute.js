@@ -10,7 +10,7 @@ const {
   signup,
   loginUser,
   protect,
-  restrictTo,
+  restrictToAdminOnly,
   resetPassword,
   forgotPassword,
 } = require("../controllers/authController");
@@ -23,12 +23,12 @@ router.route("/resetPassword/:token").patch(resetPassword);
 
 router
   .route("/")
-  .get(protect, getAllUsers)
-  .post(protect, restrictTo("admin"), createUser);
+  .get(protect, restrictToAdminOnly, getAllUsers)
+  .post(protect, createUser);
 router
   .route("/:id")
-  .get(protect, getUser)
-  .delete(protect, restrictTo("admin"), deleteUser)
-  .patch(protect, restrictTo("admin"), updateUser);
+  .get(getUser)
+  .delete(protect, restrictToAdminOnly, deleteUser)
+  .patch(protect, updateUser);
 
 module.exports = router;

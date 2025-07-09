@@ -1,0 +1,1067 @@
+[
+  {
+    "id": 1,
+    "name": "ADIDAS IF1402 Deportivo",
+    "brand": "ADIDAS",
+    "price": 1200,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/31/7457221/1.jpg?9371",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 2,
+      "4": 3,
+      "4.5": 4,
+      "5": 5,
+      "5.5": 3,
+      "6": 6,
+      "6.5": 2,
+      "7": 1
+    },
+    "description": "Designed for the modern athlete...",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-01-10T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ADIDAS IF1400 Deportivo",
+    "brand": "ADIDAS",
+    "price": 1200,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/60/7457221/1.jpg?9106",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 3,
+      "4": 2,
+      "4.5": 4,
+      "5": 6,
+      "5.5": 3,
+      "6": 5,
+      "6.5": 1,
+      "7": 2
+    },
+    "description": "Engineered for precision and speed...",
+    "color": "White",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-02-05T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nike Air Max Sc Shoes",
+    "brand": "Nike",
+    "price": 3600,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/52/8021031/6.jpg?1688",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 4,
+      "4": 4,
+      "4.5": 5,
+      "5": 5,
+      "5.5": 3,
+      "6": 2,
+      "6.5": 1,
+      "7": 3
+    },
+    "description": "Combining style and performance...",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-03-15T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "ADIDAS IH5289 Zapatillas Break Start ",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/87/7713911/1.jpg?0856",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 2,
+      "4": 3,
+      "4.5": 5,
+      "5": 4,
+      "5.5": 2,
+      "6": 3,
+      "6.5": 1,
+      "7": 1
+    },
+    "description": "The ADIDAS IH5289 Zapatillas Break Start shoes...",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "ADIDAS Lsj08 Tennis Footwear Shoes",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/27/334725/1.jpg?5874",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 1,
+      "4": 2,
+      "4.5": 3,
+      "5": 3,
+      "5.5": 4,
+      "6": 4,
+      "6.5": 2,
+      "7": 1
+    },
+    "description": "Step up your game with the ADIDAS LSJ08 Tennis Footwear...",
+    "color": "White",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ADIDAS IH5289 Zapatillas Break Start ",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/87/7713911/1.jpg?0856",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 2,
+      "4": 3,
+      "4.5": 5,
+      "5": 4,
+      "5.5": 2,
+      "6": 3,
+      "6.5": 1,
+      "7": 1
+    },
+    "description": "The ADIDAS IH5289 Zapatillas Break Start shoes...",
+    "color": "Black",
+    "material": "Synthetics",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ADIDAS IG8691 Copa Pure 2 Club Turf Boots",
+    "brand": "ADIDAS",
+    "price": 1679,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/38/7713911/1.jpg?0731",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 3,
+      "4": 3,
+      "4.5": 2,
+      "5": 4,
+      "5.5": 3,
+      "6": 2,
+      "6.5": 1,
+      "7": 1
+    },
+    "description": "The ADIDAS IH5289 Zapatillas Break Start shoes...",
+    "color": "White",
+    "material": "Leather",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "ADIDAS Football COPA PURE TURF BOOTS GY9049",
+    "brand": "ADIDAS",
+    "price": 2249,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/89/404999/2.jpg?1846",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 10,
+      "4": 12,
+      "4.5": 14,
+      "5": 15,
+      "5.5": 11,
+      "6": 12,
+      "6.5": 5,
+      "7": 5
+    },
+    "description": "COMFORTABLE BOOTS FOR IMMACULATE FOOTBALL...",
+    "color": "Black/White/Pink",
+    "material": "Textile",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-05-01T23:59:59.000Z",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "PUMA Mens Softride",
+    "brand": "PUMA",
+    "price": 6249,
+    "imageUrl": "https://m.media-amazon.com/images/I/61lW062M36L._AC_SY625_.jpg",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 9,
+      "4": 10,
+      "4.5": 8,
+      "5": 12,
+      "5.5": 11,
+      "6": 11,
+      "6.5": 5,
+      "7": 5
+    },
+    "description": "Now introducing the Softride Premier...",
+    "color": "White/Blue",
+    "material": "Soft foam",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-02-03T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Starter Street Basic-2 Lifestyle Sneaker",
+    "brand": "Starter",
+    "price": 1113,
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/38/7713911/1.jpg?0731",
+    "size_range": [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+    "stock_by_size": {
+      "3.5": 7,
+      "4": 8,
+      "4.5": 9,
+      "5": 11,
+      "5.5": 10,
+      "6": 9,
+      "6.5": 3,
+      "7": 3
+    },
+    "description": "Classic look yet stylish...",
+    "color": "White",
+    "material": "Microfiber Leather",
+    "category": "shoes",
+    "gender": ["men", "women"],
+    "release_date": "2024-08-01T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Decathlon 8 Mm Size M Fitness Mat Tone Mat - Grey",
+    "brand": "Decathlon",
+    "price": 1799,
+    "description": "This 8 mm mat, which can be used with or without shoes, is super grippy. Perfect for intense fitness sessions.",
+    "color": "Gray",
+    "material": "Rubber",
+    "weight": "2 lbs",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/51/020484/1.jpg?2127",
+    "stock": 44,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 3.2,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yoga And Exercise Mat",
+    "brand": "Decathlon",
+    "price": 350,
+    "description": "This Yoga Mat is essential to an effective yoga session. It is a mat you can rely on. Designed for yoga enthusiasts, the yoga mat ensures a safe, comfortable yoga practice by helping you support your body, maintain correct alignment and hold postures firmly. Now you can release tension, surrender to the pose and allow the power of yoga to work for you. This fitness mat is ideal for a number of floor exercises and stretches . it has a textured surface making it a perfect choice for Pilates or yoga plus this mat rolls up with a convenient  carry strap for easy storage and travel",
+    "color": "Red",
+    "material": "Rubber",
+    "weight": "4 Ib",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/59/646494/1.jpg?9745",
+    "stock": 33,
+    "release_date": "2024-07-01T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dumbbell -4 Kg - 2 Pcs",
+    "brand": "Decathlon",
+    "price": 650,
+    "description": " Dumbbell - 4 Kg - 2 Pcs 4kg + 4kg  color black",
+    "color": "Black",
+    "material": "Vinyl Dumbbell ",
+    "weight": "4 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/22/167472/1.jpg?2444",
+    "stock": 48,
+    "release_date": "2025-01-02T23:59:59.000Z",
+    "rating": 4.2,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Rubber Dumbbell Hoop",
+    "brand": "Decathlon",
+    "price": 450,
+    "description": "Dumbbell rubber hoop Illustrated collection of unique exercises to guide you to get the best results in the shortest time.Brand: otherblack colorCoating material: rubberFilling material: alloy",
+    "color": "Black",
+    "material": "Rubber/Alloy",
+    "weight": "5 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/17/949574/1.jpg?4989",
+    "stock": 50,
+    "release_date": "2025-02-01T23:59:59.000Z",
+    "rating": 4.2,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Powermax Fitness Bu 650 Magnetic Exercise Upright Bike With 6Kg Flywheel, Lcd Display & Heart Rate Sensor For Home Workout, Black",
+    "brand": "PowerMax Fitness",
+    "price": 12891,
+    "description": "LCD Display - Time, Distance, Speed, Calories, Scan and Hand Pulse | 6KG Flywheel. Belt Transmission Drive System | Silent, Frictionless Magnetic Brake System.Max User Weight: 120KG | 8 - Level Adjustable Resistance | 1 Piece Crank | Hand Pulse Sensors on Handlebars.Comfortable Seat Cushion With Vertical Adjustment | Anti-slip Pedals With Adjustable Foot-Straps | Comfortable Neoprene-Covered Handlebars.Express Free virtual assistance service for complete peace of mind.Request for virtual assistance of this product once delivered.Virtual assistance video presents in the image tab and on official YouTube Channel",
+    "color": "Black",
+    "material": "metal",
+    "weight": "30 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/51IY8S4qBCL._AC_SX679_.jpg",
+    "stock": 22,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 3.9,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Elastic Band for Home Gym Long Exercise Workout – Great Fitness Equipment for Training, Yoga – Free Carrying Bag",
+    "brand": "TechStone",
+    "price": 195,
+    "description": "Natural Latex Material - Made of strong and durable raw material to withstand pressure over time and to last for years.5 Resistance Levels – This bands allow you to mix and match to get your desired weight level - from 4.5 kg (10lb) up to 45 kg (115lbs) when combined, suitable for someone just starting out or an experienced gym-goer.Pocket Portability - Training with resistance bands is proven to achieve the same results as free weights, with the benefit of portability and low-impact exercises that put less pressure on your joints",
+    "color": "Black",
+    "material": "Natural Rubber",
+    "weight": "141 Grams",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/715uYUzrEsL._AC_SX679_.jpg",
+    "stock": 44,
+    "release_date": "2024-06-05T23:59:59.000Z",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Generic Kettlebell 12kg Multicolour Cast Iron Strength Training Fitness Equipment Gym Bodybuilding Home Fitness Training",
+    "brand": "Generic",
+    "price": 999,
+    "description": "BETTER EXERCISE - Kettlebell dumbbells allow you to perform versatile strength exercises, develop dynamics and improve muscle movement at the end. Therefore, you must be a must-have item in every fitness club or gym - both professional or home. Nothing limits you - the range of exercise you can do with Kettle Bell is almost limitless! You can use it to increase muscle endurance when you perform squatting or compression exercises, e.g. PERFECT FOR EXERCISE ANYWHERE - Training with Kettlebell is so simple that you can exercise wherever you want. It is perfect not only for the gym, but also for home training. Thanks to this, you can bring the gym to your home. Many possibilities",
+    "color": "Multicolour",
+    "material": "metal",
+    "weight": "12 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/61QNMXn7OHL._AC_SX679_.jpg",
+    "stock": 35,
+    "release_date": "2024-07-01T23:59:59.000Z",
+    "rating": 4.1,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Starpro T20 Boxing Gloves - 8oz 10oz 12oz 14oz 16oz - Synthetic Leather Gloves for Training Sparring with Waterproof Lining - Breathable Mesh - Hand Protection",
+    "brand": "Starpro",
+    "price": 2699,
+    "description": "Punch Harder: Our advanced padding and wrist support technology allows you to throw harder punches without getting tired or risking injury. Our gloves come in various sizes, including 16oz boxing gloves for men and women.",
+    "color": "Blue",
+    "material": "Leather",
+    "weight": "815 Grams",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/71Y7PgmtA6L._AC_SX679_.jpg",
+    "stock": 17,
+    "release_date": "2024-09-07T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Premium 3 in 1 Adjustable Dumbbells and Barbell Set for Home Fitness, Fitness and Gym Workout with Extension Bar for women men",
+    "brand": "Qshop",
+    "price": 2769,
+    "description": "【3-in-1 Dumbbell Kit】: You can adjust the weight of dumbbells according to your needs. Dumbbell is equipped with a connecting rod You can turn it into a weights bar in a few seconds, which can meet your workout needs on your upper and lower ends. Helps to tighten and shape your arms, shoulders and back, and strengthen muscles Multi-function strength training equipment provides a better training way than any other sports equipment",
+    "color": "Yellow",
+    "material": "Polypropylene (PP)",
+    "weight": "40 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/61naSK+dUsL._AC_SX679_.jpg",
+    "stock": 31,
+    "release_date": "2024-07-01T23:59:59.000Z",
+    "rating": 4.3,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "PowerMax Fitness TDA-100 (4.0HP Peak) Foldable, Electric, Motorized Treadmill With Semi-Automatic Lubrication, LED Display, Home Use & BMI Calc",
+    "brand": "PowerMax",
+    "price": 22999,
+    "description": "Lifetime Frame Warranty, 3-Year Motor Warranty, and 1-Year Parts and Labour Warranty.2.0HP DC Motor, Max User Weight: 110KG and Running Surface: 49.6 x 16.9inches / 1260 x 430mm.15 Level Auto Incline, Speed: 0.8 - 14.8km/hr and 12.7cm LED Display - Time, Speed, Distance, Heart rate, Calories, Program, Incline and BMI.12 pre-set programs with Heart rate sensors on crossbar handle, Heart Rate Sensor and Semi-Auto Lubrication.Wheels for Transportation",
+    "color": "Black",
+    "material": "metal",
+    "weight": "110 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/51Etd4+gpjL._AC_SX679_.jpg",
+    "stock": 7,
+    "release_date": "2025-01-01T23:59:59.000Z",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "PowerMax Fitness BU-750 Exercise Upright Bike with Hand Pulse, Adjustable Resistance, Water Bottle Cage, 9KG Flywheel for Cardio Training Workout at Home",
+    "brand": "PowerMax",
+    "price": 20999,
+    "description": "9KG Flywheel with 3pcs Crank, 32 Level Adjustable Resistance and the maximum user weight is 120KG.LCD Display track your fitness progress - Scan, Time, Speed, Distance, Calories, Pulse, RPM, Recovery.Heart rate sensor on handle, Anti-bacterial Powder Coat Finish and EN957, RoHS Certificate.Water Bottle Cage and 2 Wheels for Easy Transportation.Anti-slip Pedals with Adjustable Foot Strap.",
+    "color": "Silver",
+    "material": "metal",
+    "weight": "120 Kg",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/71eNdE9mgvL._AC_SY879_.jpg",
+    "stock": 17,
+    "release_date": "2024-04-01T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sports Aerobic Step - Ls3168A",
+    "brand": "Generic",
+    "price": 1270,
+    "description": "IDEAL FOR YOUR GYM OR HOME AEROBIC STEP WORKOUT.NONSLIP SURFACE ON PLATFORM.2 ADJUSTMENT LEVELS",
+    "color": "Black/Orange",
+    "material": "Plastic",
+    "weight": "2500 Grams",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/61P+lcCDtKL._AC_SL1500_.jpg",
+    "stock": 9,
+    "release_date": "2024-07-07T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "ProsourceFit Extra Thick Puzzle Exercise Mat ¾” and 1, EVA Foam Interlocking Tiles for Protective, Cushioned Workout Flooring for Home and Gym Equipment",
+    "brand": "ProsourceFit",
+    "price": 1315,
+    "description": "Punch Harder: Our advanced padding and wrist support technology allows you to throw harder punches without getting tired or risking injury. Our gloves come in various sizes, including 16oz boxing gloves for men and women.",
+    "color": "Black",
+    "material": "Ethylene Vinyl Acetate (EVA)",
+    "weight": "815 Grams",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81uvZyIX6zL._AC_SX679_.jpg",
+    "stock": 62,
+    "release_date": "2024-03-07T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Babolat Evoke 102 Tennis Racket",
+    "brand": "Babolat",
+    "price": 2415,
+    "description": "Head Size: 102in2 (660cm2); Frame Weight: 270g (9.5oz) +/-10g.Balance: Head light; Beam Width: 22mm-22mm-25mm.Length: 27.(686mm); Strung with synthetic gut string",
+    "color": "Blue",
+    "material": "Leather",
+    "weight": "270 Grams",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/61eHFnWxQZL._AC_SY879_.jpg",
+    "stock": 11,
+    "release_date": "2024-09-07T23:59:59.000Z",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "PRO SPIN Table Tennis Bat With Pro Carbon Fibre Technology for Increased Control, Spin & Power | Performance-Level Ping Pong Bat | With Premium Rubber Protector",
+    "brand": "PRO SPIN",
+    "price": 4050,
+    "description": "Carbon power and precision - Improve your game with our carbon table tennis bat designed for maximum performance and control. The 7-ply bat blade, consisting of 5 layers of premium wood (including silver walnut and Ayous) and 2 layers of carbon fibre, provides an extraordinary table tennis playing experience. Dominate the competition with the most popular table tennis bat according to Sports Illustrated.",
+    "color": "Blue",
+    "material": "Carbon Fiber",
+    "weight": "6.5 ounces",
+    "category": "equipment",
+    "gender": ["men", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/71cIvA-K6SL._AC_SX679_.jpg",
+    "stock": 37,
+    "release_date": "2024-10-07T23:59:59.000Z",
+    "rating": 3.8,
+    "reviews": [
+      {
+        "rating": 2,
+        "comment": "Very unhappy with my purchase!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "John Doe",
+        "reviewerEmail": "john.doe@x.dummyjson.com"
+      },
+      {
+        "rating": 2,
+        "comment": "Not as described!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Nolan Gonzalez",
+        "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "date": "2024-05-23T08:56:21.618Z",
+        "reviewerName": "Scarlett Wright",
+        "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+      }
+    ]
+  }
+]

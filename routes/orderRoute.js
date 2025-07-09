@@ -1,12 +1,25 @@
 const express = require("express");
-const { protect } = require("../controllers/authController");
-// const deleteOrder = require("../controllers/orderController");
+const {
+  protect,
+  restrictToAdminOnly,
+} = require("../controllers/authController");
 const router = express.Router();
-const { getAllOrders,createOrder,updateOrder,deleteOrder, getOrderBYId}=require("../Controllers/orderController");
-router.get("/",getAllOrders),
-router.post("/",createOrder),
-router.patch('/:id',updateOrder);
-router.get("/:id",getOrderBYId)
+const {
+  getAllOrders,
+  createOrder,
+  updateOrder,
+  deleteOrder,
+  getOrderBYId,
+  getMyOrders,
+} = require("../Controllers/orderController");
+router.use(protect);
+
+router.get("/", protect, restrictToAdminOnly, getAllOrders),
+  router.post("/", createOrder),
+  router.patch("/:id", protect, updateOrder);
+router.get("/my-orders", protect, getMyOrders);
+
+router.get("/:id", protect, getOrderBYId);
 
 router.delete("/:id", protect, deleteOrder);
 

@@ -18,15 +18,14 @@ const getAllProducts = catchAsync(async (req, res, next) => {
   );
 
   let filter = JSON.parse(queryString);
- //search
-if (req.query.search) {
-  const keyword = req.query.search;
-  filter.$or = [
-    { name: { $regex: keyword, $options: 'i' } },
-    { description: { $regex: keyword, $options: 'i' } }
-  ];
-}
-
+  //search
+  if (req.query.search) {
+    const keyword = req.query.search;
+    filter.$or = [
+      { name: { $regex: keyword, $options: "i" } },
+      { description: { $regex: keyword, $options: "i" } },
+    ];
+  }
 
   // Handle gender filter (in case of array queries)
   if (req.query.gender) {
@@ -194,19 +193,21 @@ if (req.query.search) {
 
 const getProduct = catchAsync(async (req, res, next) => {
   const { id } = req.params;
-  const product = await Product.findById(id).populate("reviews").populate("category", "name");
+  const product = await Product.findById(id)
+    .populate("reviews")
+    .populate("category", "name");
   console.log(product);
   if (!product) {
     return next(new AppError("No product found with that id"), 404);
   }
   res.status(200).json({
     status: "success",
-    data: {product},
+    data: { product },
   });
 });
 const createProduct = catchAsync(async (req, res, next) => {
   // const newProduct = await Product.create(req.body);
- const category = await Category.findById(req.body.category);
+  const category = await Category.findById(req.body.category);
 
   if (!category) {
     return res.status(404).json({
@@ -222,19 +223,16 @@ const createProduct = catchAsync(async (req, res, next) => {
   const newProduct = await Product.create(productData);
   res.status(200).json({
     status: "success",
-    data: {newProduct},
+    data: { newProduct },
   });
-
-
 
   // res.status(201).json({
   //   status: "success",
   //   data: { newProduct },
   // });
-
 });
 const updateProduct = catchAsync(async (req, res, next) => {
- const category = await Category.findById(req.body.category);
+  const category = await Category.findById(req.body.category);
   if (!category) {
     return res.status(404).json({
       status: "fail",
@@ -249,7 +247,7 @@ const updateProduct = catchAsync(async (req, res, next) => {
       new: true,
       runValidators: true,
     }
-  ).populate("category", "name");;
+  ).populate("category", "name");
   if (!updatedProduct) {
     return next(new AppError("No product found with that id"), 404);
   }
@@ -259,7 +257,6 @@ const updateProduct = catchAsync(async (req, res, next) => {
   });
 });
 const deleteProduct = catchAsync(async (req, res, next) => {
-
   const deletedProduct = await Product.findByIdAndUpdate(req.params.id, {
     isDeleted: true,
     new: true,
