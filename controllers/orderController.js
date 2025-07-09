@@ -143,16 +143,16 @@ const getOrderBYId = catchAsync(async (req, res, next) => {
 
     .populate({
       path: "items.product",
-      select: "name price brand imageUrl",
+      select: "name price brand imageUrl color",
     });
   if (!order) {
     return res.status(404).json({ message: "Order not found" });
   }
-// =======
-//     .populate("items.product");
+  // =======
+  //     .populate("items.product");
 
-//   if (!order) return next(new AppError("Order not found", 404));
-// >>>>>>> develop
+  //   if (!order) return next(new AppError("Order not found", 404));
+  // >>>>>>> develop
 
   res.status(200).json({
     status: "success",
@@ -179,7 +179,7 @@ const updateOrder = catchAsync(async (req, res, next) => {
   res.status(200).json({
     status: "success",
     message: "Order updated successfully",
-     data: {
+    data: {
       order: updatedOrder,
     },
   });
