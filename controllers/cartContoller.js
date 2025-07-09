@@ -314,6 +314,7 @@ const confirmOrder = catchAsync(async (req, res, next) => {
 
     if (product.size_range?.length) {
       product.stock_by_size[item.size] = availableStock - item.quantity;
+      product.markModified("stock_by_size");
     } else {
       product.stock = availableStock - item.quantity;
     }
