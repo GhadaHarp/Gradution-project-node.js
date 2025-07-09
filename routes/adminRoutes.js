@@ -15,14 +15,14 @@ const {
 } = require("../controllers/authController");
 // router.use(protect, restrictToAdminOnly);
 
-router.post("/", createAdmin);
+router.post("/", protect, restrictToAdminOnly, createAdmin);
 
-router.get("/", getAllAdmins);
-router.post("/login", loginAdmin);
+router.get("/", protect, restrictToAdminOnly, getAllAdmins);
+router.post("/login", protect, restrictToAdminOnly, loginAdmin);
 
-router.get("/:id", getAdmin);
-router.patch("/:id", updateAdmin);
-router.delete("/:id", deleteAdmin);
+router.get("/:id", protect, restrictToAdminOnly, getAdmin);
+router.patch("/:id", protect, restrictToAdminOnly, updateAdmin);
+router.delete("/:id", protect, restrictToAdminOnly, deleteAdmin);
 // router.post("/" ,signup)
 // router.post("/")
 module.exports = router;
