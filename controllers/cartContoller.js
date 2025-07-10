@@ -350,11 +350,20 @@ const confirmOrder = catchAsync(async (req, res, next) => {
     order,
   });
 });
-
+const getStripeSessionStatus = async (req, res) => {
+  const sessionId = req.query.session_id;
+  try {
+    const session = await stripe.checkout.sessions.retrieve(sessionId);
+    return res.json({ status: session.payment_status }); // 'paid', 'unpaid', etc.
+  } catch (err) {
+    return res.status(400).json({ message: "Invalid session" });
+  }
+};
 module.exports = {
   addToCart,
   updateCart,
   removeFromCart,
   checkout,
   confirmOrder,
+  getStripeSessionStatus,
 };
