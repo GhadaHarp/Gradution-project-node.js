@@ -13,7 +13,6 @@ router
   .get(passport.authenticate("google"), async (req, res) => {
     try {
       const { id, displayName, emails, photos } = req.user;
-
       const [firstName, lastName] = displayName.split(" ");
 
       let user = await User.findOne({ email: emails[0].value });
@@ -40,11 +39,19 @@ router
         expiresIn: process.env.JWT_EXPIRES_IN,
       });
 
-      res.redirect(`http://localhost:4200/home?token=${token}`);
+      const redirectUrl = new URL("http://localhost:4200");
+      redirectUrl.searchParams.set("token", token);
+      redirectUrl.searchParams.set("id", user._id.toString());
+      redirectUrl.searchParams.set("firstName", user.firstName);
+      redirectUrl.searchParams.set("lastName", user.lastName);
+      redirectUrl.searchParams.set("email", user.email);
+      redirectUrl.searchParams.set("role", user.role);
+
+      res.redirect(redirectUrl.toString());
     } catch (error) {
       console.error(error);
-      // error page url
-      //   res.redirect("/");
+      res.redirect("http://localhost:4200/login?error=google_failed");
     }
   });
+
 module.exports = router;
