@@ -41,6 +41,7 @@ const getAllOrders = catchAsync(async (req, res) => {
   const [
     newCustomers,
     newProduct,
+    availableProducts,
     newOrder,
     userCount,
     userActive,
@@ -49,6 +50,7 @@ const getAllOrders = catchAsync(async (req, res) => {
   ] = await Promise.all([
     User.countDocuments({ createdAt: { $gte: weekAgo }, isDeleted: false }),
     Product.countDocuments({ createdAt: { $gte: weekAgo }, isDeleted: false }),
+   Product.countDocuments({  isDeleted: false }),
     Order.countDocuments({
       createdAt: { $gte: weekAgo },
       status: { $ne: "Cancelled" },
@@ -67,6 +69,7 @@ const getAllOrders = catchAsync(async (req, res) => {
     avgOrderValue,
     newCustomers,
     newProduct,
+    availableProducts,
     newOrder,
     userCount,
     userActive,
