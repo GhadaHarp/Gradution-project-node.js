@@ -17,7 +17,8 @@ const getAllProducts = catchAsync(async (req, res, next) => {
     (match) => `$${match}`
   );
 
-  let filter = JSON.parse(queryString);
+ let filter = { ...JSON.parse(queryString), isDeleted: false };
+
   //search
   if (req.query.search) {
     const keyword = req.query.search;

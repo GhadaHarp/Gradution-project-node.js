@@ -85,7 +85,7 @@ const getUser = catchAsync(async (req, res, next) => {
     populate: {
       path: "items.product",
       model: "Product",
-      select: "name price brand imageUrl ",
+      select: "name price brand imageUrl color stock size_range stock_by_size",
     },
   });
   if (!user) {

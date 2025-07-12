@@ -13,12 +13,11 @@ const {
   protect,
   restrictToAdminOnly,
 } = require("../controllers/authController");
-// router.use(protect, restrictToAdminOnly);
 
 router.post("/", protect, restrictToAdminOnly, createAdmin);
 
 router.get("/", protect, restrictToAdminOnly, getAllAdmins);
-router.post("/login", protect, restrictToAdminOnly, loginAdmin);
+router.post("/login", loginAdmin);
 
 router.get("/:id", protect, restrictToAdminOnly, getAdmin);
 router.patch("/:id", protect, restrictToAdminOnly, updateAdmin);
