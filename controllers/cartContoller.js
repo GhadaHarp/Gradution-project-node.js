@@ -204,74 +204,74 @@ const removeFromCart = catchAsync(async (req, res, next) => {
   });
 });
 
-const checkout = catchAsync(async (req, res, next) => {
-  const { paymentMethod } = req.body;
+// const checkout = catchAsync(async (req, res, next) => {
+//   const { paymentMethod } = req.body;
 
-  if (!["cash", "visa"].includes(paymentMethod))
-    return next(new AppError("Invalid payment method", 400));
+//   if (!["cash", "visa"].includes(paymentMethod))
+//     return next(new AppError("Invalid payment method", 400));
 
-  if (paymentMethod === "cash") {
-    return res.status(200).json({
-      status: "success",
-      message: "Cash payment selected, no Stripe needed",
-    });
-  }
+//   if (paymentMethod === "cash") {
+//     return res.status(200).json({
+//       status: "success",
+//       message: "Cash payment selected, no Stripe needed",
+//     });
+//   }
 
-  const user = await User.findById(req.user._id).populate("cart.product");
-  if (!user || !user.cart.length)
-    return next(new AppError("Cart is empty", 400));
+//   const user = await User.findById(req.user._id).populate("cart.product");
+//   if (!user || !user.cart.length)
+//     return next(new AppError("Cart is empty", 400));
 
-  let totalPrice = 0;
-  const line_items = [];
+//   let totalPrice = 0;
+//   const line_items = [];
 
-  for (const item of user.cart) {
-    const product = item.product;
-    if (!product) return next(new AppError("Product not found", 404));
+//   for (const item of user.cart) {
+//     const product = item.product;
+//     if (!product) return next(new AppError("Product not found", 404));
 
-    const availableStock = product.size_range?.length
-      ? product.stock_by_size?.[item.size]
-      : product.stock;
+//     const availableStock = product.size_range?.length
+//       ? product.stock_by_size?.[item.size]
+//       : product.stock;
 
-    if (availableStock === undefined || item.quantity > availableStock) {
-      return next(
-        new AppError(
-          `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
-          400
-        )
-      );
-    }
+//     if (availableStock === undefined || item.quantity > availableStock) {
+//       return next(
+//         new AppError(
+//           `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
+//           400
+//         )
+//       );
+//     }
 
-    const itemTotal = item.quantity * product.price;
-    totalPrice += itemTotal;
+//     const itemTotal = item.quantity * product.price;
+//     totalPrice += itemTotal;
 
-    line_items.push({
-      price_data: {
-        currency: "usd",
-        product_data: {
-          name: `${product.name} ${item.size ? `(Size: ${item.size})` : ""}`,
-        },
-        unit_amount: Math.round(product.price * 100),
-      },
-      quantity: item.quantity,
-    });
-  }
+//     line_items.push({
+//       price_data: {
+//         currency: "usd",
+//         product_data: {
+//           name: `${product.name} ${item.size ? `(Size: ${item.size})` : ""}`,
+//         },
+//         unit_amount: Math.round(product.price * 100),
+//       },
+//       quantity: item.quantity,
+//     });
+//   }
 
-  const session = await stripe.checkout.sessions.create({
-    payment_method_types: ["card"],
-    line_items,
-    mode: "payment",
-    success_url: `${process.env.CLIENT_URL}/confirm-order?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${process.env.CLIENT_URL}/decline-order`,
-    metadata: {
-      userId: user._id.toString(),
-    },
-  });
+//   const session = await stripe.checkout.sessions.create({
+//     payment_method_types: ["card"],
+//     line_items,
+//     mode: "payment",
+//     success_url: `${process.env.CLIENT_URL}/confirm-order?session_id={CHECKOUT_SESSION_ID}`,
+//     cancel_url: `${process.env.CLIENT_URL}/decline-order`,
+//     metadata: {
+//       userId: user._id.toString(),
+//     },
+//   });
 
-  res.status(200).json({
-    status: "success",
-    checkoutSessionUrl: session.url,
-  });
-});
+//   res.status(200).json({
+//     status: "success",
+//     checkoutSessionUrl: session.url,
+//   });
+// });
 
 const confirmOrder = catchAsync(async (req, res, next) => {
   const { paymentMethod, shippingAddress } = req.body;
@@ -359,6 +359,239 @@ const getStripeSessionStatus = async (req, res) => {
     return res.status(400).json({ message: "Invalid session" });
   }
 };
+const checkout = catchAsync(async (req, res, next) => {
+  const { paymentMethod, shippingAddress } = req.body;
+
+  if (!["cash", "visa"].includes(paymentMethod)) {
+    return next(new AppError("Invalid payment method", 400));
+  }
+
+  const user = await User.findById(req.user._id).populate("cart.product");
+  if (!user || !user.cart.length) {
+    return next(new AppError("Cart is empty", 400));
+  }
+
+  // 🟩 Handle cash payment immediately
+  if (paymentMethod === "cash") {
+    req.body.paymentMethod = "cash";
+    req.body.shippingAddress = shippingAddress;
+    return confirmOrder(req, res, next); // use your existing confirmOrder logic
+  }
+
+  // 🟦 Handle Stripe payment (visa)
+  let totalPrice = 0;
+  const line_items = [];
+
+  for (const item of user.cart) {
+    const product = item.product;
+    if (!product) return next(new AppError("Product not found", 404));
+
+    const availableStock = product.size_range?.length
+      ? product.stock_by_size?.[item.size]
+      : product.stock;
+
+    if (availableStock === undefined || item.quantity > availableStock) {
+      return next(
+        new AppError(
+          `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
+          400
+        )
+      );
+    }
+
+    totalPrice += item.quantity * product.price;
+
+    line_items.push({
+      price_data: {
+        currency: "usd",
+        product_data: {
+          name: `${product.name} ${item.size ? `(Size: ${item.size})` : ""}`,
+        },
+        unit_amount: Math.round(product.price * 100),
+      },
+      quantity: item.quantity,
+    });
+  }
+
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items,
+    mode: "payment",
+    success_url: `${process.env.CLIENT_URL}/confirmPayment?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${process.env.CLIENT_URL}/decline-order`,
+    metadata: {
+      userId: user._id.toString(),
+      address: shippingAddress?.address || "",
+      city: shippingAddress?.city || "",
+      country: shippingAddress?.country || "",
+      postalCode: shippingAddress?.postalCode || "",
+      phone: shippingAddress?.phone || "",
+    },
+  });
+
+  res.status(200).json({
+    status: "success",
+    checkoutSessionUrl: session.url,
+  });
+});
+
+const placeOrderFromStripe = catchAsync(async (req, res, next) => {
+  const sessionId = req.query.session_id;
+  if (!sessionId) return next(new AppError("Missing session_id", 400));
+
+  const session = await stripe.checkout.sessions.retrieve(sessionId);
+  if (session.payment_status !== "paid") {
+    return next(new AppError("Payment not completed", 400));
+  }
+
+  const user = await User.findById(session.metadata.userId).populate(
+    "cart.product"
+  );
+  if (!user || !user.cart.length)
+    return next(new AppError("Cart is empty", 400));
+
+  const shippingAddress = {
+    address: session.metadata.address,
+    city: session.metadata.city,
+    country: session.metadata.country,
+    postalCode: session.metadata.postalCode,
+    phone: session.metadata.phone,
+  };
+
+  let totalPrice = 0;
+  const orderItems = [];
+
+  for (const item of user.cart) {
+    const product = await Product.findById(item.product);
+    const availableStock = product.size_range?.length
+      ? product.stock_by_size?.[item.size]
+      : product.stock;
+
+    if (availableStock === undefined || item.quantity > availableStock) {
+      return next(
+        new AppError(
+          `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
+          400
+        )
+      );
+    }
+
+    if (product.size_range?.length) {
+      product.stock_by_size[item.size] = availableStock - item.quantity;
+      product.markModified("stock_by_size");
+    } else {
+      product.stock = availableStock - item.quantity;
+    }
+
+    await product.save({ validateModifiedOnly: true });
+
+    totalPrice += item.quantity * product.price;
+    orderItems.push({
+      product: product._id,
+      quantity: item.quantity,
+      size: item.size,
+      totalPriceItems: item.quantity * product.price,
+    });
+  }
+
+  const order = await Order.create({
+    user: user._id,
+    items: orderItems,
+    totalPrice,
+    totalPriceOrder: totalPrice,
+    paymentMethod: "visa",
+    shippingAddress,
+    status: "processing",
+  });
+
+  user.cart = [];
+  user.orders.push(order._id);
+  await user.save({ validateModifiedOnly: true });
+
+  res.status(201).json({
+    status: "success",
+    message: "Order placed successfully",
+    order,
+  });
+});
+// POST /cart/stripe/confirm
+const confirmStripeOrder = catchAsync(async (req, res, next) => {
+  const { sessionId } = req.body;
+
+  const session = await stripe.checkout.sessions.retrieve(sessionId);
+  if (!session || session.payment_status !== "paid") {
+    return next(new AppError("Payment not verified", 400));
+  }
+
+  const userId = session.metadata.userId;
+  const user = await User.findById(userId).populate("cart.product");
+  if (!user || !user.cart.length) {
+    return next(new AppError("Cart is empty or user not found", 400));
+  }
+
+  // const shippingAddress = JSON.parse(req.body.shippingAddress);
+  const shippingAddress = req.body.shippingAddress;
+  const paymentMethod = "visa";
+
+  let totalPrice = 0;
+  const orderItems = [];
+
+  for (const item of user.cart) {
+    const product = await Product.findById(item.product);
+    if (!product) return next(new AppError("Product not found", 404));
+
+    const availableStock = product.size_range?.length
+      ? product.stock_by_size?.[item.size]
+      : product.stock;
+
+    if (availableStock === undefined || item.quantity > availableStock) {
+      return next(
+        new AppError(
+          `Insufficient stock for ${product.name}, size ${item.size || "N/A"}`,
+          400
+        )
+      );
+    }
+
+    if (product.size_range?.length) {
+      product.stock_by_size[item.size] = availableStock - item.quantity;
+      product.markModified("stock_by_size");
+    } else {
+      product.stock = availableStock - item.quantity;
+    }
+
+    await product.save({ validateModifiedOnly: true });
+
+    totalPrice += item.quantity * product.price;
+    orderItems.push({
+      product: product._id,
+      quantity: item.quantity,
+      size: item.size,
+      totalPriceItems: item.quantity * product.price,
+    });
+  }
+
+  const order = await Order.create({
+    user: user._id,
+    items: orderItems,
+    totalPrice,
+    totalPriceOrder: totalPrice,
+    paymentMethod,
+    shippingAddress,
+    status: "processing",
+  });
+
+  user.cart = [];
+  user.orders.push(order._id);
+  await user.save({ validateModifiedOnly: true });
+
+  res.status(201).json({
+    status: "success",
+    message: "Order placed successfully",
+    order,
+  });
+});
+
 module.exports = {
   addToCart,
   updateCart,
@@ -366,4 +599,6 @@ module.exports = {
   checkout,
   confirmOrder,
   getStripeSessionStatus,
+  placeOrderFromStripe,
+  confirmStripeOrder,
 };
