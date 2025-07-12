@@ -2,7 +2,6 @@ const express = require("express");
 const morgan = require("morgan");
 const AppError = require("./utilities/appError");
 const globalErrorHandler = require("./controllers/errorController");
-// const
 
 const app = express();
 const passport = require("passport");
